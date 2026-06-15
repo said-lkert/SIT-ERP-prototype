@@ -2,40 +2,12 @@ import express from "express";
 import path from "path";
 import { createServer as createViteServer } from "vite";
 import fs from "fs";
-import { setupApiRoutes } from "./server/routes/index.js";
-import db from "./server/database/connection.js";
-import { createSchema, dropSchema } from "./server/database/schema.js";
-import { seed } from "./server/database/seed.js";
-
-function setupDatabase() {
-  try {
-    const tableCheck = db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='users'").get();
-    if (!tableCheck) {
-      console.log("Core tables missing. Initializing schema and seeding data...");
-      createSchema();
-      seed();
-      console.log("Database successfully initialized.");
-    } else {
-      console.log("Database schema found.");
-    }
-  } catch (error) {
-    console.error("Error during database setup:", error);
-    throw error;
-  }
-}
+import app from "./server/app.js";
 
 async function startServer() {
   try {
     console.log("Starting server initialization...");
-    setupDatabase();
-    const app = express();
-    const PORT = 3000;
-
-    app.use(express.json());
-
-    // Setup API routes
-    console.log("Setting up API routes...");
-    setupApiRoutes(app);
+    const PORT = Number(process.env.PORT || 3000);
 
     // Vite middleware for development
     if (process.env.NODE_ENV !== "production") {
@@ -47,7 +19,7 @@ async function startServer() {
       app.use(vite.middlewares);
     } else {
       console.log("Running in production mode...");
-      // Production: serve static files from dist
+      // Production: serve static files from dist.
       const distPath = path.join(process.cwd(), 'dist');
       if (fs.existsSync(distPath)) {
         console.log(`Serving static files from ${distPath}`);
@@ -57,7 +29,7 @@ async function startServer() {
       }
     }
 
-    // SPA fallback
+    // SPA fallback for the local Node server.
     app.get('*', (req, res) => {
       if (process.env.NODE_ENV === "production") {
         const distPath = path.join(process.cwd(), 'dist');

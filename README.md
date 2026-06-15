@@ -36,5 +36,21 @@ npm run build
 npm start
 ```
 
-Les variables d'environnement optionnelles sont documentées dans
-`.env.example`. Ne publiez jamais de clé réelle dans le dépôt.
+## Déploiement sur Vercel
+
+Le dépôt est configuré pour Vercel :
+
+- le frontend React est compilé avec Vite dans `dist` ;
+- les routes `/api/*` sont servies par une fonction Express ;
+- les routes du frontend utilisent un fallback SPA vers `index.html`.
+
+Importez le dépôt GitHub dans Vercel et conservez les paramètres détectés depuis
+`vercel.json`.
+
+La démonstration utilise SQLite dans le répertoire temporaire de la fonction
+Vercel. Les données sont initialisées automatiquement, mais elles peuvent être
+réinitialisées lors d'un redémarrage ou d'un changement d'instance serverless.
+Une base externe persistante sera nécessaire pour une utilisation en production.
+
+Aucune variable d'environnement n'est requise pour cette démonstration. Ne
+publiez jamais de clé réelle dans le dépôt.
