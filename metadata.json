@@ -1,0 +1,10 @@
+{
+  "name": "SIT-ERP",
+  "description": "A modern, modular ERP interface with a module store and an interactive mind map to visualize and navigate active modules.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

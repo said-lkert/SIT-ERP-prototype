@@ -1,0 +1,3904 @@
+{
+  "('mindmap');\n  \n  // Pre-activate a couple modules so the mind map isn't totally empty on first load.\n  const [activeModuleIds, setActiveModuleIds] = useState": {
+    "fr": "(« carte mentale »);\n  \n  // Pré-activez quelques modules pour que la carte mentale ne soit pas totalement vide au premier chargement.\n  const [activeModuleIds, setActiveModuleIds] = useState",
+    "ar": "('الخريطة الذهنية');\n  \n  // قم بتنشيط وحدتين مسبقًا حتى لا تكون الخريطة الذهنية فارغة تمامًا عند التحميل الأول.\n  const [activeModuleIds, setActiveModuleIds] = useState",
+    "es": "('mapa mental');\n  \n  // Preactiva un par de módulos para que el mapa mental no esté totalmente vacío en la primera carga.\n  const [activeModuleIds, setActiveModuleIds] = useState",
+    "de": "('Mindmap');\n  \n  // Einige Module vorab aktivieren, damit die Mind Map beim ersten Laden nicht völlig leer ist.\n  const [activeModuleIds, setActiveModuleIds] = useState",
+    "it": "(\"mappa mentale\");\n  \n  // Preattiva un paio di moduli in modo che la mappa mentale non sia completamente vuota al primo caricamento.\n  const [activeModuleIds, setActiveModuleIds] = useState",
+    "pt": "('mapa mental');\n  \n  // Pré-ative alguns módulos para que o mapa mental não fique totalmente vazio no primeiro carregamento.\n  const [activeModuleIds, setActiveModuleIds] = useState"
+  },
+  "prev.includes(id) \n        ? prev.filter(m => m !== id)\n        : [...prev, id]\n    );\n  };\n\n  return (": {
+    "fr": "prev.includes(id) \n        ? prev.filter(m => m !== identifiant)\n        : [...précédent, identifiant]\n    );\n  } ;\n\n  retour (",
+    "ar": "السابق.يتضمن (المعرف) \n        ؟ prev.filter(m => m !== id)\n        : [...السابق، المعرف]\n    );\n  };\n\n  يعود (",
+    "es": "anterior.incluye(id) \n        ? filtro.prev(m => m!== id)\n        : [...anterior, identificación]\n    );\n  };\n\n  devolver (",
+    "de": "prev.includes(id) \n        ? prev.filter(m => m !== id)\n        : [...prev, id]\n    );\n  };\n\n  zurückkehren (",
+    "it": "prec.include(id) \n        ? prev.filter(m => m !== id)\n        : [...precedente, id]\n    );\n  };\n\n  ritorno (",
+    "pt": "anterior.includes(id) \n        ? anterior.filter(m => m !== id)\n        : [...anterior, id]\n    );\n  };\n\n  retornar ("
+  },
+  "Nexus": {
+    "fr": "Lien",
+    "ar": "العلاقة",
+    "es": "Nexo",
+    "de": "Nexus",
+    "it": "Nesso",
+    "pt": "Nexo"
+  },
+  "ERP": {
+    "fr": "ERP",
+    "ar": "تخطيط موارد المؤسسات",
+    "es": "ERP",
+    "de": "ERP",
+    "it": "ERP",
+    "pt": "ERP"
+  },
+  "Adrian Sterling": {
+    "fr": "Adrien Sterling",
+    "ar": "أدريان ستيرلنج",
+    "es": "Adrián Sterling",
+    "de": "Adrian Sterling",
+    "it": "Adriano Sterlina",
+    "pt": "Adriano Sterling"
+  },
+  "Administrator": {
+    "fr": "Administrateur",
+    "ar": "المسؤول",
+    "es": "Administrador",
+    "de": "Administrator",
+    "it": "Amministratore",
+    "pt": "Administrador"
+  },
+  "AS": {
+    "fr": "COMME",
+    "ar": "مثل",
+    "es": "COMO",
+    "de": "ALS",
+    "it": "COME",
+    "pt": "COMO"
+  },
+  "Search modules, data, or reports...": {
+    "fr": "Rechercher des modules, des données ou des rapports...",
+    "ar": "وحدات البحث أو البيانات أو التقارير...",
+    "es": "Buscar módulos, datos o informes...",
+    "de": "Durchsuchen Sie Module, Daten oder Berichte ...",
+    "it": "Cerca moduli, dati o report...",
+    "pt": "Pesquise módulos, dados ou relatórios..."
+  },
+  "activeModuleIds.includes(m.id));\n  const N = activeModules.length;\n\n  return (": {
+    "fr": "activeModuleIds.includes(m.id));\n  const N = activeModules.length;\n\n  retour (",
+    "ar": "activeModuleIds.includes(m.id));\n  const N = activeModules.length;\n\n  يعود (",
+    "es": "activeModuleIds.includes(m.id));\n  const N = activeModules.length;\n\n  devolver (",
+    "de": "activeModuleIds.includes(m.id));\n  const N = activeModules.length;\n\n  zurückkehren (",
+    "it": "activeModuleIds.includes(m.id));\n  const N = activeModules.length;\n\n  ritorno (",
+    "pt": "activeModuleIds.includes(m.id));\n  const N = activeModules.length;\n\n  retornar ("
+  },
+  "Active Ecosystem": {
+    "fr": "Écosystème actif",
+    "ar": "النظام البيئي النشط",
+    "es": "Ecosistema Activo",
+    "de": "Aktives Ökosystem",
+    "it": "Ecosistema attivo",
+    "pt": "Ecossistema Ativo"
+  },
+  "Your personalized enterprise resource network.": {
+    "fr": "Votre réseau de ressources d'entreprise personnalisé.",
+    "ar": "شبكة موارد مؤسستك المخصصة.",
+    "es": "Su red de recursos empresariales personalizada.",
+    "de": "Ihr personalisiertes Unternehmensressourcennetzwerk.",
+    "it": "La tua rete di risorse aziendali personalizzata.",
+    "pt": "Sua rede de recursos empresariais personalizada."
+  },
+  "8 ? 38 : Math.min(30 + N*0.5, 40); \n            const xPct = 50 + Math.cos(angle) * radiusScale;\n            const yPct = 50 + Math.sin(angle) * radiusScale;\n             \n            // Generate control points for organic S-curves\n            const isEven = i % 2 === 0;\n            const curveOffset = isEven ? 0.6 : -0.6;\n            const cp1x = 50 + Math.cos(angle + curveOffset) * (radiusScale * 0.3);\n            const cp1y = 50 + Math.sin(angle + curveOffset) * (radiusScale * 0.3);\n            const cp2x = 50 + Math.cos(angle - curveOffset) * (radiusScale * 0.7);\n            const cp2y = 50 + Math.sin(angle - curveOffset) * (radiusScale * 0.7);\n\n            return (": {
+    "fr": "8 ? 38 : Math.min(30 + N*0.5, 40); \n            const xPct = 50 + Math.cos(angle) * radiusScale ;\n            const yPct = 50 + Math.sin(angle) * radiusScale ;\n             \n            // Générer des points de contrôle pour les courbes en S organiques\n            const estPair = je % 2 === 0;\n            constcurveOffset = isEven ? 0,6 : -0,6 ;\n            const cp1x = 50 + Math.cos(angle +curveOffset) * (radiusScale * 0,3);\n            const cp1y = 50 + Math.sin(angle +curveOffset) * (radiusScale * 0,3);\n            const cp2x = 50 + Math.cos(angle -curveOffset) * (radiusScale * 0,7);\n            const cp2y = 50 + Math.sin(angle -curveOffset) * (radiusScale * 0,7);\n\n            retour (",
+    "ar": "8 ؟ 38 : Math.min(30 + N*0.5, 40); \n            const xPct = 50 + Math.cos(angle) * radiusScale;\n            const yPct = 50 + Math.sin(angle) * radiusScale;\n             \n            // إنشاء نقاط تحكم لمنحنيات S العضوية\n            const isEven = i % 2 === 0;\n            const curveOffset = isEven ؟ 0.6 : -0.6;\n            const cp1x = 50 + Math.cos(angle + curveOffset) * (radiusScale * 0.3);\n            const cp1y = 50 + Math.sin(angle + curveOffset) * (radiusScale * 0.3);\n            const cp2x = 50 + Math.cos(angle - curveOffset) * (radiusScale * 0.7);\n            const cp2y = 50 + Math.sin(angle - curveOffset) * (radiusScale * 0.7);\n\n            يعود (",
+    "es": "8 ? 38: Matemáticas.mín(30 + N*0,5, 40); \n            const xPct = 50 + Math.cos(ángulo) * radioEscala;\n            const yPct = 50 + Math.sin(ángulo) * radioEscala;\n             \n            // Generar puntos de control para curvas S orgánicas\n            const es par = i % 2 === 0;\n            const curvaDesplazamiento = esEven? 0,6: -0,6;\n            const cp1x = 50 + Math.cos(ángulo + curvaOffset) * (radiusScale * 0.3);\n            const cp1y = 50 + Math.sin(ángulo + curvaOffset) * (radiusScale * 0.3);\n            const cp2x = 50 + Math.cos(ángulo - curvaOffset) * (radiusScale * 0.7);\n            const cp2y = 50 + Math.sin(ángulo - curvaOffset) * (radiusScale * 0.7);\n\n            devolver (",
+    "de": "8 ? 38 : Math.min(30 + N*0,5, 40); \n            const xPct = 50 + Math.cos(angle) * radiusScale;\n            const yPct = 50 + Math.sin(angle) * radiusScale;\n             \n            // Kontrollpunkte für organische S-Kurven generieren\n            const isEven = i % 2 === 0;\n            const CurveOffset = isEven ? 0,6 : -0,6;\n            const cp1x = 50 + Math.cos(angle + CurveOffset) * (radiusScale * 0.3);\n            const cp1y = 50 + Math.sin(angle + CurveOffset) * (radiusScale * 0.3);\n            const cp2x = 50 + Math.cos(angle - CurveOffset) * (radiusScale * 0.7);\n            const cp2y = 50 + Math.sin(angle - CurveOffset) * (radiusScale * 0.7);\n\n            zurückkehren (",
+    "it": "8? 38 : Math.min(30 + N*0,5, 40); \n            cost xPct = 50 + Math.cos(angolo) * raggioScala;\n            const yPct = 50 + Math.sin(angolo) * raggioScala;\n             \n            // Genera punti di controllo per le curve a S organiche\n            const èPari = i % 2 === 0;\n            const curveOffset = èPari? 0,6: -0,6;\n            const cp1x = 50 + Math.cos(angolo + curveOffset) * (radiusScale * 0.3);\n            const cp1y = 50 + Math.sin(angolo + curveOffset) * (radiusScale * 0.3);\n            const cp2x = 50 + Math.cos(angolo - curveOffset) * (radiusScale * 0.7);\n            const cp2y = 50 + Math.sin(angolo - curveOffset) * (radiusScale * 0.7);\n\n            ritorno (",
+    "pt": "8? 38: Matemática.min(30 + N*0,5, 40); \n            const xPct = 50 + Math.cos(ângulo) * radiusScale;\n            const yPct = 50 + Math.sin(ângulo) * radiusScale;\n             \n            // Gera pontos de controle para curvas S orgânicas\n            const éEven = i% 2 === 0;\n            const curveOffset = isEven? 0,6: -0,6;\n            const cp1x = 50 + Math.cos(ângulo + curveOffset) * (radiusScale * 0,3);\n            const cp1y = 50 + Math.sin(ângulo + curveOffset) * (radiusScale * 0,3);\n            const cp2x = 50 + Math.cos(ângulo - curveOffset) * (radiusScale * 0,7);\n            const cp2y = 50 + Math.sin(ângulo - curveOffset) * (radiusScale * 0,7);\n\n            retornar ("
+  },
+  "8 ? 38 : Math.min(30 + N*0.5, 40); \n            const xPct = 50 + Math.cos(angle) * radiusScale;\n            const yPct = 50 + Math.sin(angle) * radiusScale;\n            const Icon = module.icon;\n\n            return (": {
+    "fr": "8 ? 38 : Math.min(30 + N*0.5, 40); \n            const xPct = 50 + Math.cos(angle) * radiusScale ;\n            const yPct = 50 + Math.sin(angle) * radiusScale ;\n            const Icône = module.icon;\n\n            retour (",
+    "ar": "8 ؟ 38 : Math.min(30 + N*0.5, 40); \n            const xPct = 50 + Math.cos(angle) * radiusScale;\n            const yPct = 50 + Math.sin(angle) * radiusScale;\n            أيقونة ثابتة = Module.icon؛\n\n            يعود (",
+    "es": "8 ? 38: Matemáticas.mín(30 + N*0,5, 40); \n            const xPct = 50 + Math.cos(ángulo) * radioEscala;\n            const yPct = 50 + Math.sin(ángulo) * radioEscala;\n            icono constante = módulo.icono;\n\n            devolver (",
+    "de": "8 ? 38 : Math.min(30 + N*0,5, 40); \n            const xPct = 50 + Math.cos(angle) * radiusScale;\n            const yPct = 50 + Math.sin(angle) * radiusScale;\n            const Icon = module.icon;\n\n            zurückkehren (",
+    "it": "8? 38 : Math.min(30 + N*0,5, 40); \n            cost xPct = 50 + Math.cos(angolo) * raggioScala;\n            const yPct = 50 + Math.sin(angolo) * raggioScala;\n            icona const = modulo.icona;\n\n            ritorno (",
+    "pt": "8? 38: Matemática.min(30 + N*0,5, 40); \n            const xPct = 50 + Math.cos(ângulo) * radiusScale;\n            const yPct = 50 + Math.sin(ângulo) * radiusScale;\n            const Ícone = módulo.icon;\n\n            retornar ("
+  },
+  "Root": {
+    "fr": "Racine",
+    "ar": "جذر",
+    "es": "Raíz",
+    "de": "Wurzel",
+    "it": "Radice",
+    "pt": "Raiz"
+  },
+  "NEXUS": {
+    "fr": "LIEN",
+    "ar": "العلاقة",
+    "es": "NEXO",
+    "de": "NEXUS",
+    "it": "NESSO",
+    "pt": "NEXO"
+  },
+  "CORP": {
+    "fr": "CORP.",
+    "ar": "كورب",
+    "es": "CORP",
+    "de": "CORP",
+    "it": "CORP",
+    "pt": "CORP."
+  },
+  "Your ecosystem is empty. Head to the": {
+    "fr": "Votre écosystème est vide. Dirigez-vous vers le",
+    "ar": "النظام البيئي الخاص بك فارغ. توجه إلى",
+    "es": "Tu ecosistema está vacío. Dirígete al",
+    "de": "Ihr Ökosystem ist leer. Gehen Sie zum",
+    "it": "Il tuo ecosistema è vuoto. Dirigiti al",
+    "pt": "Seu ecossistema está vazio. Vá para o"
+  },
+  "Module Store": {
+    "fr": "Magasin de modules",
+    "ar": "متجر الوحدة النمطية",
+    "es": "Tienda de módulos",
+    "de": "Modulspeicher",
+    "it": "Negozio dei moduli",
+    "pt": "Armazenamento de módulos"
+  },
+  "to activate capabilities.": {
+    "fr": "pour activer les capacités.",
+    "ar": "لتفعيل القدرات.",
+    "es": "para activar capacidades.",
+    "de": "Fähigkeiten zu aktivieren.",
+    "it": "per attivare le capacità.",
+    "pt": "para ativar capacidades."
+  },
+  "m.category)));\n\n  return (": {
+    "fr": "m.catégorie)));\n\n  retour (",
+    "ar": "م.الفئة)));\n\n  يعود (",
+    "es": "m.categoría)));\n\n  devolver (",
+    "de": "m.kategorie)));\n\n  zurückkehren (",
+    "it": "m.categoria)));\n\n  ritorno (",
+    "pt": "m.categoria)));\n\n  retornar ("
+  },
+  "Browse and activate the capabilities your enterprise needs. Build your bespoke ERP one module at a time.": {
+    "fr": "Parcourez et activez les fonctionnalités dont votre entreprise a besoin. Construisez votre ERP sur mesure, un module à la fois.",
+    "ar": "تصفح وتفعيل الإمكانيات التي تحتاجها مؤسستك. أنشئ وحدة تخطيط موارد المؤسسات (ERP) المخصصة لديك واحدة تلو الأخرى.",
+    "es": "Explore y active las capacidades que su empresa necesita. Cree su ERP personalizado, un módulo a la vez.",
+    "de": "Durchsuchen und aktivieren Sie die Funktionen, die Ihr Unternehmen benötigt. Erstellen Sie Ihr maßgeschneidertes ERP Modul für Modul.",
+    "it": "Sfoglia e attiva le funzionalità di cui la tua azienda ha bisogno. Costruisci il tuo ERP su misura un modulo alla volta.",
+    "pt": "Navegue e ative os recursos de que sua empresa precisa. Crie seu ERP personalizado, um módulo de cada vez."
+  },
+  "m.category === category);\n          \n          return (": {
+    "fr": "m.category === catégorie);\n          \n          retour (",
+    "ar": "m.category === الفئة);\n          \n          يعود (",
+    "es": "m.categoría === categoría);\n          \n          devolver (",
+    "de": "m.category === Kategorie);\n          \n          zurückkehren (",
+    "it": "m.categoria === categoria);\n          \n          ritorno (",
+    "pt": "m.categoria === categoria);\n          \n          retornar ("
+  },
+  "activeModuleIds.includes(m.id));\n\n  return (": {
+    "fr": "activeModuleIds.includes(m.id));\n\n  retour (",
+    "ar": "activeModuleIds.includes(m.id));\n\n  يعود (",
+    "es": "activeModuleIds.includes(m.id));\n\n  devolver (",
+    "de": "activeModuleIds.includes(m.id));\n\n  zurückkehren (",
+    "it": "activeModuleIds.includes(m.id));\n\n  ritorno (",
+    "pt": "activeModuleIds.includes(m.id));\n\n  retornar ("
+  },
+  "Navigation": {
+    "fr": "Navigation",
+    "ar": "ملاحة",
+    "es": "Navegación",
+    "de": "Navigation",
+    "it": "Navigazione",
+    "pt": "Navegação"
+  },
+  "System Settings": {
+    "fr": "Paramètres système",
+    "ar": "إعدادات النظام",
+    "es": "Configuración del sistema",
+    "de": "Systemeinstellungen",
+    "it": "Impostazioni di sistema",
+    "pt": "Configurações do sistema"
+  },
+  "Active Modules": {
+    "fr": "Modules actifs",
+    "ar": "الوحدات النشطة",
+    "es": "Módulos activos",
+    "de": "Aktive Module",
+    "it": "Moduli attivi",
+    "pt": "Módulos Ativos"
+  },
+  "System Status": {
+    "fr": "État du système",
+    "ar": "حالة النظام",
+    "es": "Estado del sistema",
+    "de": "Systemstatus",
+    "it": "Stato del sistema",
+    "pt": "Status do sistema"
+  },
+  "All services active": {
+    "fr": "Tous les services actifs",
+    "ar": "جميع الخدمات نشطة",
+    "es": "Todos los servicios activos",
+    "de": "Alle Dienste aktiv",
+    "it": "Tutti i servizi attivi",
+    "pt": "Todos os serviços ativos"
+  },
+  "Omnichannel Communication Hub": {
+    "fr": "Centre de communication omnicanal",
+    "ar": "مركز الاتصالات متعدد القنوات",
+    "es": "Centro de comunicación omnicanal",
+    "de": "Omnichannel-Kommunikationszentrum",
+    "it": "Hub di comunicazione omnicanale",
+    "pt": "Centro de comunicação omnicanal"
+  },
+  "Connect your email client, VoIP provider, and calendar to see all interactions chronologically linked to your deals and contacts.": {
+    "fr": "Connectez votre client de messagerie, votre fournisseur VoIP et votre calendrier pour voir toutes les interactions liées chronologiquement à vos offres et contacts.",
+    "ar": "قم بتوصيل عميل البريد الإلكتروني الخاص بك، وموفر خدمة VoIP، والتقويم لرؤية جميع التفاعلات المرتبطة بترتيب زمني لصفقاتك وجهات الاتصال الخاصة بك.",
+    "es": "Conecte su cliente de correo electrónico, proveedor de VoIP y calendario para ver todas las interacciones vinculadas cronológicamente a sus ofertas y contactos.",
+    "de": "Verbinden Sie Ihren E-Mail-Client, Ihren VoIP-Anbieter und Ihren Kalender, um alle Interaktionen chronologisch im Zusammenhang mit Ihren Deals und Kontakten anzuzeigen.",
+    "it": "Collega il tuo client di posta elettronica, il provider VoIP e il calendario per vedere tutte le interazioni collegate cronologicamente alle tue offerte e ai tuoi contatti.",
+    "pt": "Conecte seu cliente de e-mail, provedor de VoIP e calendário para ver todas as interações vinculadas cronologicamente aos seus negócios e contatos."
+  },
+  "Connect Google Workspace": {
+    "fr": "Connecter Google Workspace",
+    "ar": "ربط مساحة عمل جوجل",
+    "es": "Conectar Google Workspace",
+    "de": "Verbinden Sie Google Workspace",
+    "it": "Connetti Google Workspace",
+    "pt": "Conecte o Google Workspace"
+  },
+  "Connect Office 365": {
+    "fr": "Connectez-vous à Office 365",
+    "ar": "ربط مكتب 365",
+    "es": "Conectar Office 365",
+    "de": "Verbinden Sie Office 365",
+    "it": "Connetti Office 365",
+    "pt": "Conectar o Office 365"
+  },
+  "Filter": {
+    "fr": "Filtre",
+    "ar": "فلتر",
+    "es": "Filtrar",
+    "de": "Filter",
+    "it": "Filtro",
+    "pt": "Filtro"
+  },
+  "Import": {
+    "fr": "Importer",
+    "ar": "يستورد",
+    "es": "Importar",
+    "de": "Import",
+    "it": "Importare",
+    "pt": "Importar"
+  },
+  "Add Contact": {
+    "fr": "Ajouter un contact",
+    "ar": "إضافة جهة اتصال",
+    "es": "Agregar contacto",
+    "de": "Kontakt hinzufügen",
+    "it": "Aggiungi contatto",
+    "pt": "Adicionar contato"
+  },
+  "Name": {
+    "fr": "Nom",
+    "ar": "اسم",
+    "es": "Nombre",
+    "de": "Name",
+    "it": "Nome",
+    "pt": "Nome"
+  },
+  "Company & Role": {
+    "fr": "Entreprise et rôle",
+    "ar": "الشركة والدور",
+    "es": "Empresa y función",
+    "de": "Unternehmen & Rolle",
+    "it": "Azienda e ruolo",
+    "pt": "Empresa e função"
+  },
+  "Contact Info": {
+    "fr": "Coordonnées",
+    "ar": "معلومات الاتصال",
+    "es": "Información de contacto",
+    "de": "Kontaktinformationen",
+    "it": "Informazioni di contatto",
+    "pt": "Informações de contato"
+  },
+  "Status": {
+    "fr": "Statut",
+    "ar": "حالة",
+    "es": "Estado",
+    "de": "Status",
+    "it": "Stato",
+    "pt": "Status"
+  },
+  "n[0]).join('')}": {
+    "fr": "n[0]).join('')}",
+    "ar": "ن[0]).الانضمام('')}",
+    "es": "n[0]).unirse('')}",
+    "de": "n[0]).join('')}",
+    "it": "n[0]).join('')}",
+    "pt": "n[0]).join('')}"
+  },
+  "Showing 1 to 6 of 6 entries": {
+    "fr": "Affichage de 1 à 6 sur 6 entrées",
+    "ar": "عرض 1 إلى 6 من أصل 6 إدخالات",
+    "es": "Mostrando 1 a 6 de 6 entradas",
+    "de": "Zeigt 1 bis 6 von 6 Einträgen",
+    "it": "Mostrando da 1 a 6 di 6 voci",
+    "pt": "Mostrando 1 a 6 de 6 entradas"
+  },
+  "Prev": {
+    "fr": "Précédent",
+    "ar": "السابق",
+    "es": "Anterior",
+    "de": "Vorher",
+    "it": "Prec",
+    "pt": "Anterior"
+  },
+  "Next": {
+    "fr": "Suivant",
+    "ar": "التالي",
+    "es": "Próximo",
+    "de": "Nächste",
+    "it": "Prossimo",
+    "pt": "Próximo"
+  },
+  "Search contacts...": {
+    "fr": "Rechercher des contacts...",
+    "ar": "بحث في جهات الاتصال...",
+    "es": "Buscar contactos...",
+    "de": "Kontakte suchen...",
+    "it": "Cerca contatti...",
+    "pt": "Pesquisar contatos..."
+  },
+  "Sales Pipeline Funnel": {
+    "fr": "Entonnoir de pipeline de ventes",
+    "ar": "قمع خط أنابيب المبيعات",
+    "es": "Embudo de canalización de ventas",
+    "de": "Sales-Pipeline-Trichter",
+    "it": "Imbuto della pipeline di vendita",
+    "pt": "Funil de pipeline de vendas"
+  },
+  "This Quarter": {
+    "fr": "Ce trimestre",
+    "ar": "هذا الربع",
+    "es": "Este trimestre",
+    "de": "Dieses Quartal",
+    "it": "Questo trimestre",
+    "pt": "Este trimestre"
+  },
+  "Last Quarter": {
+    "fr": "Dernier trimestre",
+    "ar": "الربع الأخير",
+    "es": "Último trimestre",
+    "de": "Letztes Viertel",
+    "it": "Ultimo quarto",
+    "pt": "Último trimestre"
+  },
+  "This Year": {
+    "fr": "Cette année",
+    "ar": "هذا العام",
+    "es": "este año",
+    "de": "Dieses Jahr",
+    "it": "Quest'anno",
+    "pt": "Este ano"
+  },
+  "Leads (840)": {
+    "fr": "Pistes (840)",
+    "ar": "يؤدي (840)",
+    "es": "Clientes potenciales (840)",
+    "de": "Leads (840)",
+    "it": "Lead (840)",
+    "pt": "Leads (840)"
+  },
+  "$1.2M": {
+    "fr": "1,2 M$",
+    "ar": "1.2 مليون دولار",
+    "es": "1,2 millones de dólares",
+    "de": "1,2 Millionen US-Dollar",
+    "it": "$ 1,2 milioni",
+    "pt": "US$ 1,2 milhão"
+  },
+  "Qualified (420)": {
+    "fr": "Qualifié (420)",
+    "ar": "مؤهل (420)",
+    "es": "Calificado (420)",
+    "de": "Qualifiziert (420)",
+    "it": "Qualificato (420)",
+    "pt": "Qualificado (420)"
+  },
+  "$840k": {
+    "fr": "840 000 $",
+    "ar": "840 ألف دولار",
+    "es": "$ 840 mil",
+    "de": "840.000 $",
+    "it": "$ 840.000",
+    "pt": "US$ 840 mil"
+  },
+  "Proposal (180)": {
+    "fr": "Proposition (180)",
+    "ar": "الاقتراح (180)",
+    "es": "Propuesta (180)",
+    "de": "Vorschlag (180)",
+    "it": "Proposta (180)",
+    "pt": "Proposta (180)"
+  },
+  "$420k": {
+    "fr": "420 000 $",
+    "ar": "420 ألف دولار",
+    "es": "$420 mil",
+    "de": "420.000 $",
+    "it": "$ 420.000",
+    "pt": "US$ 420 mil"
+  },
+  "Negotiation (90)": {
+    "fr": "Négociation (90)",
+    "ar": "التفاوض (90)",
+    "es": "Negociación (90)",
+    "de": "Verhandlung (90)",
+    "it": "Negoziazione (90)",
+    "pt": "Negociação (90)"
+  },
+  "$215k": {
+    "fr": "215 000 $",
+    "ar": "215 ألف دولار",
+    "es": "$215 mil",
+    "de": "215.000 $",
+    "it": "$ 215.000",
+    "pt": "US$ 215 mil"
+  },
+  "Closed Won (64)": {
+    "fr": "Fermé Gagné (64)",
+    "ar": "مغلق فاز (64)",
+    "es": "Cerrado Ganado (64)",
+    "de": "Geschlossen und gewonnen (64)",
+    "it": "Chiuso Vinto (64)",
+    "pt": "Fechado e ganho (64)"
+  },
+  "+$180k": {
+    "fr": "+180 000 $",
+    "ar": "+180 ألف دولار",
+    "es": "+$180k",
+    "de": "+180.000 $",
+    "it": "+ $ 180.000",
+    "pt": "+$ 180 mil"
+  },
+  "Recent Activity": {
+    "fr": "Activité récente",
+    "ar": "النشاط الأخير",
+    "es": "Actividad reciente",
+    "de": "Letzte Aktivität",
+    "it": "Attività recente",
+    "pt": "Atividade recente"
+  },
+  "View All Activity": {
+    "fr": "Afficher toutes les activités",
+    "ar": "عرض جميع الأنشطة",
+    "es": "Ver toda la actividad",
+    "de": "Alle Aktivitäten anzeigen",
+    "it": "Visualizza tutte le attività",
+    "pt": "Ver todas as atividades"
+  },
+  "Top Performing Reps": {
+    "fr": "Représentants les plus performants",
+    "ar": "أعلى الممثلين أداءً",
+    "es": "Representantes con mejor desempeño",
+    "de": "Die leistungsstärksten Vertreter",
+    "it": "Rappresentanti con le migliori prestazioni",
+    "pt": "Representantes de melhor desempenho"
+  },
+  "Deals & Opportunities": {
+    "fr": "Offres et opportunités",
+    "ar": "الصفقات والفرص",
+    "es": "Ofertas y oportunidades",
+    "de": "Angebote und Chancen",
+    "it": "Offerte e opportunità",
+    "pt": "Ofertas e oportunidades"
+  },
+  "Detailed view of all active negotiations and historical deals.": {
+    "fr": "Vue détaillée de toutes les négociations actives et des accords historiques.",
+    "ar": "عرض تفصيلي لجميع المفاوضات النشطة والصفقات التاريخية.",
+    "es": "Vista detallada de todas las negociaciones activas y acuerdos históricos.",
+    "de": "Detaillierte Ansicht aller aktiven Verhandlungen und historischen Deals.",
+    "it": "Visualizzazione dettagliata di tutte le trattative attive e degli accordi storici.",
+    "pt": "Visão detalhada de todas as negociações ativas e acordos históricos."
+  },
+  "Create Deal": {
+    "fr": "Créer une offre",
+    "ar": "إنشاء صفقة",
+    "es": "Crear oferta",
+    "de": "Angebot erstellen",
+    "it": "Crea offerta",
+    "pt": "Criar negócio"
+  },
+  "All Deals": {
+    "fr": "Toutes les offres",
+    "ar": "جميع العروض",
+    "es": "Todas las ofertas",
+    "de": "Alle Angebote",
+    "it": "Tutte le offerte",
+    "pt": "Todas as ofertas"
+  },
+  "12 Total": {
+    "fr": "12 au total",
+    "ar": "12 المجموع",
+    "es": "12 en total",
+    "de": "12 Insgesamt",
+    "it": "12 Totale",
+    "pt": "12 Total"
+  },
+  "TechGlobal Enterprise": {
+    "fr": "Entreprise TechGlobale",
+    "ar": "المؤسسة التقنية العالمية",
+    "es": "Empresa TechGlobal",
+    "de": "TechGlobal Enterprise",
+    "it": "TechGlobal Enterprise",
+    "pt": "TechGlobal Enterprise"
+  },
+  "$45k": {
+    "fr": "45 000 $",
+    "ar": "45 ألف دولار",
+    "es": "$45k",
+    "de": "45.000 $",
+    "it": "$ 45k",
+    "pt": "US$ 45 mil"
+  },
+  "TechGlobal Inc.": {
+    "fr": "TechGlobal Inc.",
+    "ar": "شركة تك جلوبال",
+    "es": "TechGlobal Inc.",
+    "de": "TechGlobal Inc.",
+    "it": "TechGlobal Inc.",
+    "pt": "TechGlobal Inc."
+  },
+  "Proposal": {
+    "fr": "Proposition",
+    "ar": "عرض",
+    "es": "Propuesta",
+    "de": "Vorschlag",
+    "it": "Proposta",
+    "pt": "Proposta"
+  },
+  "60% Probability": {
+    "fr": "60 % de probabilité",
+    "ar": "احتمال 60%",
+    "es": "60% de probabilidad",
+    "de": "60 % Wahrscheinlichkeit",
+    "it": "60% di probabilità",
+    "pt": "60% de probabilidade"
+  },
+  "TechGlobal Enterprise License": {
+    "fr": "Licence d'entreprise TechGlobal",
+    "ar": "ترخيص مؤسسة TechGlobal",
+    "es": "Licencia empresarial TechGlobal",
+    "de": "TechGlobal Enterprise-Lizenz",
+    "it": "Licenza aziendale TechGlobal",
+    "pt": "Licença Empresarial TechGlobal"
+  },
+  "TechGlobal Inc. (Alice Freeman)": {
+    "fr": "TechGlobal Inc. (Alice Freeman)",
+    "ar": "شركة TechGlobal (أليس فريمان)",
+    "es": "TechGlobal Inc. (Alice Freeman)",
+    "de": "TechGlobal Inc. (Alice Freeman)",
+    "it": "TechGlobal Inc. (Alice Freeman)",
+    "pt": "(Alice Freeman)"
+  },
+  "Expected Close: Oct 24, 2026": {
+    "fr": "Clôture prévue : 24 octobre 2026",
+    "ar": "الإغلاق المتوقع: 24 أكتوبر 2026",
+    "es": "Cierre previsto: 24 de octubre de 2026",
+    "de": "Voraussichtlicher Abschluss: 24. Okt. 2026",
+    "it": "Chiusura prevista: 24 ottobre 2026",
+    "pt": "Fechamento esperado: 24 de outubro de 2026"
+  },
+  "Mark as Won": {
+    "fr": "Marquer comme gagné",
+    "ar": "وضع علامة على أنه فاز",
+    "es": "Marcar como ganado",
+    "de": "Als gewonnen markieren",
+    "it": "Contrassegna come vinto",
+    "pt": "Marcar como ganho"
+  },
+  "Log Activity": {
+    "fr": "Activité du journal",
+    "ar": "نشاط السجل",
+    "es": "Actividad de registro",
+    "de": "Protokollaktivität",
+    "it": "Registra attività",
+    "pt": "Registrar atividade"
+  },
+  "New Task": {
+    "fr": "Nouvelle tâche",
+    "ar": "مهمة جديدة",
+    "es": "Nueva tarea",
+    "de": "Neue Aufgabe",
+    "it": "Nuovo compito",
+    "pt": "Nova tarefa"
+  },
+  "Deal Timeline": {
+    "fr": "Chronologie de la transaction",
+    "ar": "الجدول الزمني للصفقة",
+    "es": "Cronograma del acuerdo",
+    "de": "Deal-Zeitleiste",
+    "it": "Cronologia dell'affare",
+    "pt": "Cronograma da transação"
+  },
+  "Proposal Sent": {
+    "fr": "Proposition envoyée",
+    "ar": "تم إرسال الاقتراح",
+    "es": "Propuesta enviada",
+    "de": "Vorschlag gesendet",
+    "it": "Proposta inviata",
+    "pt": "Proposta enviada"
+  },
+  "Today 10:42 AM": {
+    "fr": "Aujourd'hui 10h42",
+    "ar": "اليوم 10:42 صباحًا",
+    "es": "Hoy 10:42",
+    "de": "Heute 10:42 Uhr",
+    "it": "Oggi 10:42",
+    "pt": "Hoje às 10h42"
+  },
+  "Attached revised SLA and pricing matrix.": {
+    "fr": "Ci-joint un SLA révisé et une matrice de tarification.",
+    "ar": "مرفق اتفاقية مستوى الخدمة المنقحة ومصفوفة التسعير.",
+    "es": "Adjunto SLA revisado y matriz de precios.",
+    "de": "Anbei ein überarbeitetes SLA und eine Preismatrix.",
+    "it": "SLA rivisto e matrice dei prezzi in allegato.",
+    "pt": "SLA revisado e matriz de preços em anexo."
+  },
+  "Discovery Call": {
+    "fr": "Appel découverte",
+    "ar": "نداء الاكتشاف",
+    "es": "Llamada de descubrimiento",
+    "de": "Entdeckungsruf",
+    "it": "Chiamata alla scoperta",
+    "pt": "Chamada de descoberta"
+  },
+  "Oct 12": {
+    "fr": "12 octobre",
+    "ar": "12 أكتوبر",
+    "es": "12 de octubre",
+    "de": "12. Okt",
+    "it": "12 ottobre",
+    "pt": "12 de outubro"
+  },
+  "Discussed primary pain points with current provider.": {
+    "fr": "Discussion des principaux problèmes avec le fournisseur actuel.",
+    "ar": "ناقش نقاط الألم الأساسية مع المزود الحالي.",
+    "es": "Discutió los principales puntos débiles con su proveedor actual.",
+    "de": "Besprochene Hauptprobleme mit dem aktuellen Anbieter.",
+    "it": "Discussione dei principali punti critici con l'attuale fornitore.",
+    "pt": "Discutimos os principais pontos problemáticos com o provedor atual."
+  },
+  "About this deal": {
+    "fr": "À propos de cette offre",
+    "ar": "حول هذه الصفقة",
+    "es": "Acerca de este trato",
+    "de": "Über diesen Deal",
+    "it": "A proposito di questo accordo",
+    "pt": "Sobre este acordo"
+  },
+  "Deal Owner": {
+    "fr": "Propriétaire de la transaction",
+    "ar": "مالك الصفقة",
+    "es": "Propietario de la oferta",
+    "de": "Deal-Inhaber",
+    "it": "Proprietario dell'affare",
+    "pt": "Proprietário do negócio"
+  },
+  "Deal Type": {
+    "fr": "Type de transaction",
+    "ar": "نوع الصفقة",
+    "es": "Tipo de trato",
+    "de": "Deal-Typ",
+    "it": "Tipo di offerta",
+    "pt": "Tipo de negócio"
+  },
+  "New Business": {
+    "fr": "Nouvelle affaire",
+    "ar": "أعمال جديدة",
+    "es": "Nuevo negocio",
+    "de": "Neues Geschäft",
+    "it": "Nuova attività",
+    "pt": "Novos Negócios"
+  },
+  "Source": {
+    "fr": "Source",
+    "ar": "مصدر",
+    "es": "Fuente",
+    "de": "Quelle",
+    "it": "Fonte",
+    "pt": "Fonte"
+  },
+  "Inbound - Website": {
+    "fr": "Entrant - Site Web",
+    "ar": "الوارد - الموقع",
+    "es": "Entrante - Sitio web",
+    "de": "Eingehend – Website",
+    "it": "In entrata - Sito web",
+    "pt": "Entrada - Site"
+  },
+  "Lead Inbox": {
+    "fr": "Boîte de réception des prospects",
+    "ar": "البريد الوارد الرصاص",
+    "es": "Bandeja de entrada de clientes potenciales",
+    "de": "Lead-Posteingang",
+    "it": "Posta in arrivo principale",
+    "pt": "Caixa de entrada de leads"
+  },
+  "This is the holding pen for unqualified prospects before they enter your pipeline. Import a CSV or connect a web form to get started.": {
+    "fr": "Il s'agit d'un enclos pour les prospects non qualifiés avant qu'ils n'entrent dans votre pipeline. Importez un CSV ou connectez un formulaire Web pour commencer.",
+    "ar": "هذا هو قلم الإمساك بالعملاء المحتملين غير المؤهلين قبل دخولهم إلى خط الأنابيب الخاص بك. قم باستيراد ملف CSV أو توصيل نموذج ويب للبدء.",
+    "es": "Este es el lugar de espera para los prospectos no calificados antes de que ingresen a su canal. Importe un CSV o conecte un formulario web para comenzar.",
+    "de": "Dies ist der Haltegriff für unqualifizierte Interessenten, bevor sie in Ihre Pipeline gelangen. Importieren Sie eine CSV-Datei oder verbinden Sie ein Webformular, um loszulegen.",
+    "it": "Questo è il recinto per i potenziali clienti non qualificati prima che entrino nella tua pipeline. Importa un CSV o collega un modulo Web per iniziare.",
+    "pt": "Esta é a barreira para clientes em potencial não qualificados antes que eles entrem em seu pipeline. Importe um CSV ou conecte um formulário da web para começar."
+  },
+  "Import Leads (CSV)": {
+    "fr": "Importer des prospects (CSV)",
+    "ar": "استيراد العملاء المتوقعين (CSV)",
+    "es": "Importar clientes potenciales (CSV)",
+    "de": "Leads importieren (CSV)",
+    "it": "Importa lead (CSV)",
+    "pt": "Importar leads (CSV)"
+  },
+  "Sales & CRM": {
+    "fr": "Ventes et CRM",
+    "ar": "المبيعات وإدارة علاقات العملاء",
+    "es": "Ventas y CRM",
+    "de": "Vertrieb & CRM",
+    "it": "Vendite e CRM",
+    "pt": "Vendas e CRM"
+  },
+  "Manage relationships, track deals, and accelerate growth.": {
+    "fr": "Gérez les relations, suivez les transactions et accélérez la croissance.",
+    "ar": "إدارة العلاقات وتتبع الصفقات وتسريع النمو.",
+    "es": "Administre relaciones, realice un seguimiento de acuerdos y acelere el crecimiento.",
+    "de": "Verwalten Sie Beziehungen, verfolgen Sie Geschäfte und beschleunigen Sie das Wachstum.",
+    "it": "Gestisci le relazioni, monitora le trattative e accelera la crescita.",
+    "pt": "Gerencie relacionamentos, acompanhe negócios e acelere o crescimento."
+  },
+  "+ New Record": {
+    "fr": "+ Nouveau disque",
+    "ar": "+ سجل جديد",
+    "es": "+ Nuevo récord",
+    "de": "+ Neuer Rekord",
+    "it": "+ Nuovo record",
+    "pt": "+ Novo recorde"
+  },
+  "Q3 Pipeline": {
+    "fr": "Pipeline du troisième trimestre",
+    "ar": "خط أنابيب Q3",
+    "es": "Tubería del tercer trimestre",
+    "de": "Q3-Pipeline",
+    "it": "Gasdotto Q3",
+    "pt": "Pipeline do terceiro trimestre"
+  },
+  "Drag and drop deals to update their stage.": {
+    "fr": "Faites glisser et déposez les offres pour mettre à jour leur étape.",
+    "ar": "قم بسحب وإسقاط الصفقات لتحديث المرحلة الخاصة بها.",
+    "es": "Arrastre y suelte ofertas para actualizar su etapa.",
+    "de": "Ziehen Sie Deals per Drag-and-Drop, um ihre Phase zu aktualisieren.",
+    "it": "Trascina e rilascia le offerte per aggiornare la loro fase.",
+    "pt": "Arraste e solte negócios para atualizar seu estágio."
+  },
+  "All Pipelines": {
+    "fr": "Tous les pipelines",
+    "ar": "جميع خطوط الأنابيب",
+    "es": "Todos los oleoductos",
+    "de": "Alle Pipelines",
+    "it": "Tutte le condutture",
+    "pt": "Todos os pipelines"
+  },
+  "Enterprise Sales": {
+    "fr": "Ventes aux entreprises",
+    "ar": "مبيعات المؤسسات",
+    "es": "Ventas empresariales",
+    "de": "Unternehmensverkauf",
+    "it": "Vendite aziendali",
+    "pt": "Vendas empresariais"
+  },
+  "SMB Sales": {
+    "fr": "Ventes aux PME",
+    "ar": "مبيعات الشركات الصغيرة والمتوسطة",
+    "es": "Ventas para PYMES",
+    "de": "SMB-Verkäufe",
+    "it": "Vendite PMI",
+    "pt": "Vendas para pequenas e médias empresas"
+  },
+  "Add Deal": {
+    "fr": "Ajouter une offre",
+    "ar": "أضف صفقة",
+    "es": "Agregar oferta",
+    "de": "Angebot hinzufügen",
+    "it": "Aggiungi offerta",
+    "pt": "Adicionar oferta"
+  },
+  "d.stage === stage.id);\n          const stageTotal = stageDeals.reduce((sum, deal) => sum + parseInt(deal.amount.replace(/[^0-9]/g, '')), 0) || 0;\n          \n          return (": {
+    "fr": "d.stage === stage.id);\n          const stageTotal = stageDeals.reduce((sum, deal) => sum + parseInt(deal.amount.replace(/[^0-9]/g, '')), 0) || 0 ;\n          \n          retour (",
+    "ar": "d.stage === Stage.id);\n          const StageTotal = StageDeals.reduce((sum, Deal) => sum + parseInt(deal.amount.replace(/[^0-9]/g, ''))), 0) || 0;\n          \n          يعود (",
+    "es": "d.etapa === etapa.id);\n          const stageTotal = stageDeals.reduce((suma, trato) => suma + parseInt(trato.cantidad.replace(/[^0-9]/g, '')), 0) || 0;\n          \n          devolver (",
+    "de": "d.stage === stage.id);\n          const stageTotal = stageDeals.reduce((sum, deal) => sum + parseInt(deal.amount.replace(/[^0-9]/g, '')), 0) || 0;\n          \n          zurückkehren (",
+    "it": "d.stage === stage.id);\n          const stageTotal = stageDeals.reduce((sum, deal) => sum + parseInt(deal.amount.replace(/[^0-9]/g, '')), 0) || 0;\n          \n          ritorno (",
+    "pt": "d.estágio === estágio.id);\n          const stageTotal = stageDeals.reduce((sum, deal) => sum + parseInt(deal.amount.replace(/[^0-9]/g, '')), 0) || 0;\n          \n          retornar ("
+  },
+  "Total Value": {
+    "fr": "Valeur totale",
+    "ar": "القيمة الإجمالية",
+    "es": "Valor total",
+    "de": "Gesamtwert",
+    "it": "Valore totale",
+    "pt": "Valor total"
+  },
+  "Analytics & Reports": {
+    "fr": "Analyses et rapports",
+    "ar": "التحليلات والتقارير",
+    "es": "Análisis e informes",
+    "de": "Analysen und Berichte",
+    "it": "Analisi e report",
+    "pt": "Análises e relatórios"
+  },
+  "Deep dive into pipeline velocity, revenue, and rep performance.": {
+    "fr": "Plongez en profondeur dans la vitesse du pipeline, les revenus et les performances des représentants.",
+    "ar": "تعمق في سرعة خط الأنابيب والإيرادات وأداء الممثلين.",
+    "es": "Profundice en la velocidad del proceso, los ingresos y el rendimiento de los representantes.",
+    "de": "Tauchen Sie tief in die Pipeline-Geschwindigkeit, den Umsatz und die Vertriebsleistung ein.",
+    "it": "Approfondisci la velocità della pipeline, i ricavi e le prestazioni dei rappresentanti.",
+    "pt": "Aprofunde-se na velocidade do pipeline, na receita e no desempenho dos representantes."
+  },
+  "Export Report": {
+    "fr": "Exporter le rapport",
+    "ar": "تقرير التصدير",
+    "es": "Informe de exportación",
+    "de": "Bericht exportieren",
+    "it": "Rapporto sull'esportazione",
+    "pt": "Relatório de exportação"
+  },
+  "Revenue by Month (Current Year)": {
+    "fr": "Revenu par mois (année en cours)",
+    "ar": "الإيرادات حسب الشهر (السنة الحالية)",
+    "es": "Ingresos por mes (año actual)",
+    "de": "Umsatz nach Monat (aktuelles Jahr)",
+    "it": "Entrate per mese (anno corrente)",
+    "pt": "Receita por mês (ano atual)"
+  },
+  "Jan": {
+    "fr": "Jan",
+    "ar": "يناير",
+    "es": "Ene",
+    "de": "Jan",
+    "it": "Gen",
+    "pt": "janeiro"
+  },
+  "Mar": {
+    "fr": "Mar",
+    "ar": "مارس",
+    "es": "Mar",
+    "de": "Beschädigen",
+    "it": "Mar",
+    "pt": "março"
+  },
+  "May": {
+    "fr": "Peut",
+    "ar": "يمكن",
+    "es": "Puede",
+    "de": "Mai",
+    "it": "Maggio",
+    "pt": "Poderia"
+  },
+  "Jul": {
+    "fr": "Juillet",
+    "ar": "يوليو",
+    "es": "Jul",
+    "de": "Juli",
+    "it": "Lug",
+    "pt": "julho"
+  },
+  "Sep": {
+    "fr": "Sep",
+    "ar": "سبتمبر",
+    "es": "Sep",
+    "de": "Sept",
+    "it": "Settembre",
+    "pt": "Setembro"
+  },
+  "Win/Loss Ratio": {
+    "fr": "Ratio victoires/pertes",
+    "ar": "نسبة الفوز/الخسارة",
+    "es": "Relación ganancia/pérdida",
+    "de": "Gewinn/Verlust-Verhältnis",
+    "it": "Rapporto vittorie/perdite",
+    "pt": "Proporção de vitórias/perdas"
+  },
+  "Win Rate": {
+    "fr": "Taux de victoire",
+    "ar": "معدل الفوز",
+    "es": "Tasa de victorias",
+    "de": "Gewinnrate",
+    "it": "Tasso di vincita",
+    "pt": "Taxa de vitórias"
+  },
+  "Module Settings": {
+    "fr": "Paramètres des modules",
+    "ar": "إعدادات الوحدة",
+    "es": "Configuración del módulo",
+    "de": "Moduleinstellungen",
+    "it": "Impostazioni del modulo",
+    "pt": "Configurações do módulo"
+  },
+  "Configure your CRM pipelines, tags, and automation rules.": {
+    "fr": "Configurez vos pipelines CRM, vos balises et vos règles d'automatisation.",
+    "ar": "قم بتكوين مسارات إدارة علاقات العملاء (CRM) والعلامات وقواعد الأتمتة.",
+    "es": "Configure sus canales de CRM, etiquetas y reglas de automatización.",
+    "de": "Konfigurieren Sie Ihre CRM-Pipelines, Tags und Automatisierungsregeln.",
+    "it": "Configura le pipeline, i tag e le regole di automazione del CRM.",
+    "pt": "Configure seus pipelines de CRM, tags e regras de automação."
+  },
+  "Pipelines & Stages": {
+    "fr": "Pipelines et étapes",
+    "ar": "خطوط الأنابيب والمراحل",
+    "es": "Tuberías y Etapas",
+    "de": "Pipelines und Bühnen",
+    "it": "Condutture e fasi",
+    "pt": "Pipelines e estágios"
+  },
+  "Custom Fields": {
+    "fr": "Champs personnalisés",
+    "ar": "الحقول المخصصة",
+    "es": "Campos personalizados",
+    "de": "Benutzerdefinierte Felder",
+    "it": "Campi personalizzati",
+    "pt": "Campos personalizados"
+  },
+  "Tags & Categories": {
+    "fr": "Balises et catégories",
+    "ar": "العلامات والفئات",
+    "es": "Etiquetas y categorías",
+    "de": "Tags und Kategorien",
+    "it": "Tag e categorie",
+    "pt": "Tags e categorias"
+  },
+  "Email Templates": {
+    "fr": "Modèles d'e-mails",
+    "ar": "قوالب البريد الإلكتروني",
+    "es": "Plantillas de correo electrónico",
+    "de": "E-Mail-Vorlagen",
+    "it": "Modelli di posta elettronica",
+    "pt": "Modelos de e-mail"
+  },
+  "User Permissions": {
+    "fr": "Autorisations utilisateur",
+    "ar": "أذونات المستخدم",
+    "es": "Permisos de usuario",
+    "de": "Benutzerberechtigungen",
+    "it": "Autorizzazioni utente",
+    "pt": "Permissões do usuário"
+  },
+  "Pipeline Configuration": {
+    "fr": "Configuration des pipelines",
+    "ar": "تكوين خطوط الأنابيب",
+    "es": "Configuración de canalización",
+    "de": "Pipeline-Konfiguration",
+    "it": "Configurazione della pipeline",
+    "pt": "Configuração de pipeline"
+  },
+  "Enterprise Sales Flow": {
+    "fr": "Flux de ventes d'entreprise",
+    "ar": "تدفق مبيعات المؤسسة",
+    "es": "Flujo de ventas empresariales",
+    "de": "Unternehmensverkaufsfluss",
+    "it": "Flusso di vendita aziendale",
+    "pt": "Fluxo de vendas empresariais"
+  },
+  "5 Stages • Default": {
+    "fr": "5 étapes • Par défaut",
+    "ar": "5 مراحل • افتراضي",
+    "es": "5 Etapas • Predeterminado",
+    "de": "5 Stufen • Standard",
+    "it": "5 fasi • Predefinito",
+    "pt": "5 estágios • Padrão"
+  },
+  "Edit": {
+    "fr": "Modifier",
+    "ar": "يحرر",
+    "es": "Editar",
+    "de": "Bearbeiten",
+    "it": "Modificare",
+    "pt": "Editar"
+  },
+  "SMB Self-Serve": {
+    "fr": "Libre-service PME",
+    "ar": "الخدمة الذاتية للشركات الصغيرة والمتوسطة",
+    "es": "Autoservicio para PYMES",
+    "de": "SMB-Selbstbedienung",
+    "it": "Self-service per PMI",
+    "pt": "Autoatendimento para pequenas e médias empresas"
+  },
+  "3 Stages": {
+    "fr": "3 étapes",
+    "ar": "3 مراحل",
+    "es": "3 etapas",
+    "de": "3 Stufen",
+    "it": "3 fasi",
+    "pt": "3 etapas"
+  },
+  "+ New Pipeline": {
+    "fr": "+ Nouveau pipeline",
+    "ar": "+ خط أنابيب جديد",
+    "es": "+ Nuevo oleoducto",
+    "de": "+ Neue Pipeline",
+    "it": "+ Nuova pipeline",
+    "pt": "+ Novo pipeline"
+  },
+  "Tasks & Activities": {
+    "fr": "Tâches et activités",
+    "ar": "المهام والأنشطة",
+    "es": "Tareas y actividades",
+    "de": "Aufgaben und Aktivitäten",
+    "it": "Compiti e attività",
+    "pt": "Tarefas e Atividades"
+  },
+  "Manage your daily sales activities and follow-ups.": {
+    "fr": "Gérez vos activités de vente quotidiennes et vos suivis.",
+    "ar": "إدارة أنشطة المبيعات اليومية الخاصة بك والمتابعات.",
+    "es": "Gestiona tus actividades diarias de ventas y seguimientos.",
+    "de": "Verwalten Sie Ihre täglichen Verkaufsaktivitäten und Nachverfolgungen.",
+    "it": "Gestisci le tue attività di vendita quotidiane e i follow-up.",
+    "pt": "Gerencie suas atividades diárias de vendas e acompanhamentos."
+  },
+  "List view": {
+    "fr": "Vue en liste",
+    "ar": "عرض القائمة",
+    "es": "Vista de lista",
+    "de": "Listenansicht",
+    "it": "Visualizzazione elenco",
+    "pt": "Visualização de lista"
+  },
+  "Calendar view": {
+    "fr": "Vue Calendrier",
+    "ar": "عرض التقويم",
+    "es": "Vista de calendario",
+    "de": "Kalenderansicht",
+    "it": "Visualizzazione del calendario",
+    "pt": "Visualização de calendário"
+  },
+  "(null);\n  const formRef = useRef": {
+    "fr": "(nul);\n  const formRef = useRef",
+    "ar": "(باطل)؛\n  const formRef = useRef",
+    "es": "(nulo);\n  constante formRef = usarRef",
+    "de": "(null);\n  const formRef = useRef",
+    "it": "(nullo);\n  constformRef = useRef",
+    "pt": "(nulo);\n  const formRef = useRef"
+  },
+  "Intervention Order": {
+    "fr": "Ordonnance d'intervention",
+    "ar": "أمر التدخل",
+    "es": "Orden de intervención",
+    "de": "Interventionsanordnung",
+    "it": "Ordine di intervento",
+    "pt": "Ordem de Intervenção"
+  },
+  "Draft": {
+    "fr": "Brouillon",
+    "ar": "مسودة",
+    "es": "Borrador",
+    "de": "Entwurf",
+    "it": "Bozza",
+    "pt": "Rascunho"
+  },
+  "BI-2024-00142": {
+    "fr": "BI-2024-00142",
+    "ar": "BI-2024-00142",
+    "es": "BI-2024-00142",
+    "de": "BI-2024-00142",
+    "it": "BI-2024-00142",
+    "pt": "BI-2024-00142"
+  },
+  "Created on May 3, 2026 by Adrian Sterling": {
+    "fr": "Créé le 3 mai 2026 par Adrian Sterling",
+    "ar": "تم الإنشاء في 3 مايو 2026 بواسطة أدريان ستيرلنج",
+    "es": "Creado el 3 de mayo de 2026 por Adrian Sterling",
+    "de": "Erstellt am 3. Mai 2026 von Adrian Sterling",
+    "it": "Creato il 3 maggio 2026 da Adrian Sterling",
+    "pt": "Criado em 3 de maio de 2026 por Adrian Sterling"
+  },
+  "Client & Site": {
+    "fr": "Client et Site",
+    "ar": "العميل والموقع",
+    "es": "Cliente y sitio",
+    "de": "Kunde und Standort",
+    "it": "Cliente e sito",
+    "pt": "Cliente e Site"
+  },
+  "Client": {
+    "fr": "Client",
+    "ar": "عميل",
+    "es": "Cliente",
+    "de": "Kunde",
+    "it": "Cliente",
+    "pt": "Cliente"
+  },
+  "+ New": {
+    "fr": "+ Nouveau",
+    "ar": "+ جديد",
+    "es": "+ Nuevo",
+    "de": "+ Neu",
+    "it": "+ Nuovo",
+    "pt": "+ Novo"
+  },
+  "Phone": {
+    "fr": "Téléphone",
+    "ar": "هاتف",
+    "es": "Teléfono",
+    "de": "Telefon",
+    "it": "Telefono",
+    "pt": "Telefone"
+  },
+  "Email": {
+    "fr": "E-mail",
+    "ar": "بريد إلكتروني",
+    "es": "Correo electrónico",
+    "de": "E-Mail",
+    "it": "E-mail",
+    "pt": "E-mail"
+  },
+  "Intervention Address": {
+    "fr": "Adresse d'intervention",
+    "ar": "عنوان التدخل",
+    "es": "Dirección de intervención",
+    "de": "Interventionsadresse",
+    "it": "Indirizzo di intervento",
+    "pt": "Endereço de intervenção"
+  },
+  "Intervention Details": {
+    "fr": "Détails de l'intervention",
+    "ar": "تفاصيل التدخل",
+    "es": "Detalles de la intervención",
+    "de": "Interventionsdetails",
+    "it": "Dettagli dell'intervento",
+    "pt": "Detalhes da intervenção"
+  },
+  "Type": {
+    "fr": "Taper",
+    "ar": "يكتب",
+    "es": "Tipo",
+    "de": "Typ",
+    "it": "Tipo",
+    "pt": "Tipo"
+  },
+  "Maintenance": {
+    "fr": "Entretien",
+    "ar": "صيانة",
+    "es": "Mantenimiento",
+    "de": "Wartung",
+    "it": "Manutenzione",
+    "pt": "Manutenção"
+  },
+  "Repair": {
+    "fr": "Réparation",
+    "ar": "بصلح",
+    "es": "Reparar",
+    "de": "Reparieren",
+    "it": "Riparazione",
+    "pt": "Reparar"
+  },
+  "Installation": {
+    "fr": "Installation",
+    "ar": "تثبيت",
+    "es": "Instalación",
+    "de": "Installation",
+    "it": "Installazione",
+    "pt": "Instalação"
+  },
+  "Inspection": {
+    "fr": "Inspection",
+    "ar": "تقتيش",
+    "es": "Inspección",
+    "de": "Inspektion",
+    "it": "Ispezione",
+    "pt": "Inspeção"
+  },
+  "Other": {
+    "fr": "Autre",
+    "ar": "آخر",
+    "es": "Otro",
+    "de": "Andere",
+    "it": "Altro",
+    "pt": "Outro"
+  },
+  "Priority": {
+    "fr": "Priorité",
+    "ar": "أولوية",
+    "es": "Prioridad",
+    "de": "Priorität",
+    "it": "Priorità",
+    "pt": "Prioridade"
+  },
+  "Description": {
+    "fr": "Description",
+    "ar": "وصف",
+    "es": "Descripción",
+    "de": "Beschreibung",
+    "it": "Descrizione",
+    "pt": "Descrição"
+  },
+  "Scheduling & Assignment": {
+    "fr": "Planification et affectation",
+    "ar": "الجدولة والمهمة",
+    "es": "Programación y asignación",
+    "de": "Terminplanung und Zuweisung",
+    "it": "Pianificazione e assegnazione",
+    "pt": "Agendamento e Atribuição"
+  },
+  "Planned Date": {
+    "fr": "Date prévue",
+    "ar": "التاريخ المخطط له",
+    "es": "Fecha prevista",
+    "de": "Geplantes Datum",
+    "it": "Data pianificata",
+    "pt": "Data planejada"
+  },
+  "Time Slot": {
+    "fr": "Plage horaire",
+    "ar": "فتحة زمنية",
+    "es": "Franja horaria",
+    "de": "Zeitfenster",
+    "it": "Fascia oraria",
+    "pt": "Horário"
+  },
+  "Est. Duration": {
+    "fr": "HNE. Durée",
+    "ar": "EST. مدة",
+    "es": "Est. Duración",
+    "de": "Schätzung: Dauer",
+    "it": "Est. Durata",
+    "pt": "Husa. Duração"
+  },
+  "Deadline Date (Opt.)": {
+    "fr": "Date limite (Opt.)",
+    "ar": "تاريخ الموعد النهائي (اختياري)",
+    "es": "Fecha límite (opcional)",
+    "de": "Deadline-Datum (Opt.)",
+    "it": "Data di scadenza (facoltativo)",
+    "pt": "Data limite (Opt.)"
+  },
+  "Assigned Technicians": {
+    "fr": "Techniciens assignés",
+    "ar": "الفنيين المعينين",
+    "es": "Técnicos asignados",
+    "de": "Zugewiesene Techniker",
+    "it": "Tecnici assegnati",
+    "pt": "Técnicos Designados"
+  },
+  "No Schedule Conflicts": {
+    "fr": "Aucun conflit d'horaire",
+    "ar": "لا يوجد تعارض في الجدول الزمني",
+    "es": "Sin conflictos de horarios",
+    "de": "Keine Terminkonflikte",
+    "it": "Nessun conflitto di pianificazione",
+    "pt": "Sem conflitos de cronograma"
+  },
+  "ML": {
+    "fr": "ML",
+    "ar": "مل",
+    "es": "ml",
+    "de": "ML",
+    "it": "M.L",
+    "pt": "AM"
+  },
+  "Mark Logger": {
+    "fr": "Enregistreur de marques",
+    "ar": "مارك المسجل",
+    "es": "Registrador de marcas",
+    "de": "Mark Logger",
+    "it": "Marco Logger",
+    "pt": "Marcador de registro"
+  },
+  "Team Lead": {
+    "fr": "Chef d'équipe",
+    "ar": "قائد الفريق",
+    "es": "Líder del equipo",
+    "de": "Teamleiter",
+    "it": "Caposquadra",
+    "pt": "Líder de equipe"
+  },
+  "Available all day": {
+    "fr": "Disponible toute la journée",
+    "ar": "متاح طوال اليوم",
+    "es": "Disponible todo el día",
+    "de": "Den ganzen Tag verfügbar",
+    "it": "Disponibile tutto il giorno",
+    "pt": "Disponível o dia todo"
+  },
+  "Add Technician": {
+    "fr": "Ajouter un technicien",
+    "ar": "إضافة فني",
+    "es": "Agregar técnico",
+    "de": "Techniker hinzufügen",
+    "it": "Aggiungi tecnico",
+    "pt": "Adicionar técnico"
+  },
+  "Materials & Parts": {
+    "fr": "Matériaux et pièces",
+    "ar": "المواد والأجزاء",
+    "es": "Materiales y piezas",
+    "de": "Materialien und Teile",
+    "it": "Materiali e parti",
+    "pt": "Materiais e peças"
+  },
+  "Product / Part": {
+    "fr": "Produit/Pièce",
+    "ar": "المنتج / الجزء",
+    "es": "Producto / Pieza",
+    "de": "Produkt / Teil",
+    "it": "Prodotto/Parte",
+    "pt": "Produto / Peça"
+  },
+  "Qty": {
+    "fr": "Quantité",
+    "ar": "الكمية",
+    "es": "Cantidad",
+    "de": "Menge",
+    "it": "Qtà",
+    "pt": "Quantidade"
+  },
+  "Est. Cost": {
+    "fr": "HNE. Coût",
+    "ar": "EST. يكلف",
+    "es": "Est. Costo",
+    "de": "Schätzung: Kosten",
+    "it": "Est. Costo",
+    "pt": "Husa. Custo"
+  },
+  "In Stock (12)": {
+    "fr": "En stock (12)",
+    "ar": "متوفر في المخزون (12)",
+    "es": "En stock (12)",
+    "de": "Auf Lager (12)",
+    "it": "Disponibile (12)",
+    "pt": "Em estoque (12)"
+  },
+  "roll": {
+    "fr": "rouler",
+    "ar": "لفافة",
+    "es": "rollo",
+    "de": "rollen",
+    "it": "rotolo",
+    "pt": "rolar"
+  },
+  "Low (4)": {
+    "fr": "Faible (4)",
+    "ar": "منخفض (4)",
+    "es": "Bajo (4)",
+    "de": "Niedrig (4)",
+    "it": "Basso (4)",
+    "pt": "Baixo (4)"
+  },
+  "Add Item": {
+    "fr": "Ajouter un article",
+    "ar": "إضافة عنصر",
+    "es": "Agregar artículo",
+    "de": "Artikel hinzufügen",
+    "it": "Aggiungi articolo",
+    "pt": "Adicionar item"
+  },
+  "Total Materials est.": {
+    "fr": "Total des matériaux est.",
+    "ar": "مؤسسة المواد الشاملة.",
+    "es": "Materiales totales est.",
+    "de": "Gesamtmaterial geschätzt.",
+    "it": "Materiali totali stimati",
+    "pt": "Total de materiais estimados."
+  },
+  "Pre-Intervention Checklist": {
+    "fr": "Liste de contrôle pré-intervention",
+    "ar": "قائمة مراجعة ما قبل التدخل",
+    "es": "Lista de verificación previa a la intervención",
+    "de": "Checkliste vor dem Eingriff",
+    "it": "Lista di controllo pre-intervento",
+    "pt": "Lista de verificação pré-intervenção"
+  },
+  "Add Task": {
+    "fr": "Ajouter une tâche",
+    "ar": "إضافة مهمة",
+    "es": "Agregar tarea",
+    "de": "Aufgabe hinzufügen",
+    "it": "Aggiungi attività",
+    "pt": "Adicionar tarefa"
+  },
+  "Documents & Attachments": {
+    "fr": "Documents et pièces jointes",
+    "ar": "المستندات والمرفقات",
+    "es": "Documentos y archivos adjuntos",
+    "de": "Dokumente und Anhänge",
+    "it": "Documenti e allegati",
+    "pt": "Documentos e Anexos"
+  },
+  "HVAC_Manual.pdf": {
+    "fr": "CVC_Manuel.pdf",
+    "ar": "HVAC_Manual.pdf",
+    "es": "HVAC_Manual.pdf",
+    "de": "HVAC_Manual.pdf",
+    "it": "HVAC_Manuale.pdf",
+    "pt": "HVAC_Manual.pdf"
+  },
+  "2.4 MB": {
+    "fr": "2,4 Mo",
+    "ar": "2.4 ميجا بايت",
+    "es": "2,4MB",
+    "de": "2,4 MB",
+    "it": "2,4 MB",
+    "pt": "2,4MB"
+  },
+  "Click or drag & drop files here": {
+    "fr": "Cliquez ou glissez-déposez les fichiers ici",
+    "ar": "انقر أو اسحب وأفلت الملفات هنا",
+    "es": "Haga clic o arrastre y suelte archivos aquí",
+    "de": "Klicken Sie hier oder ziehen Sie Dateien per Drag & Drop hierher",
+    "it": "Fare clic o trascinare e rilasciare i file qui",
+    "pt": "Clique ou arraste e solte os arquivos aqui"
+  },
+  "PDF, JPG, PNG up to 10MB": {
+    "fr": "PDF, JPG, PNG jusqu'à 10 Mo",
+    "ar": "PDF، JPG، PNG يصل إلى 10 ميجابايت",
+    "es": "PDF, JPG, PNG hasta 10MB",
+    "de": "PDF, JPG, PNG bis zu 10 MB",
+    "it": "PDF, JPG, PNG fino a 10 MB",
+    "pt": "PDF, JPG, PNG até 10 MB"
+  },
+  "Internal Notes": {
+    "fr": "Notes internes",
+    "ar": "ملاحظات داخلية",
+    "es": "Notas internas",
+    "de": "Interne Notizen",
+    "it": "Note interne",
+    "pt": "Notas internas"
+  },
+  "Intervention Summary": {
+    "fr": "Résumé de l'intervention",
+    "ar": "ملخص التدخل",
+    "es": "Resumen de la intervención",
+    "de": "Zusammenfassung der Intervention",
+    "it": "Sintesi dell'intervento",
+    "pt": "Resumo da Intervenção"
+  },
+  "Assignee": {
+    "fr": "Cessionnaire",
+    "ar": "المكلف",
+    "es": "Cesionario",
+    "de": "Bevollmächtigter",
+    "it": "Assegnatario",
+    "pt": "Cessionário"
+  },
+  "Date": {
+    "fr": "Date",
+    "ar": "تاريخ",
+    "es": "Fecha",
+    "de": "Datum",
+    "it": "Data",
+    "pt": "Data"
+  },
+  "May 10, 2026": {
+    "fr": "10 mai 2026",
+    "ar": "10 مايو 2026",
+    "es": "10 de mayo de 2026",
+    "de": "10. Mai 2026",
+    "it": "10 maggio 2026",
+    "pt": "10 de maio de 2026"
+  },
+  "09:00 - 14:00 (5h 00m)": {
+    "fr": "09h00 - 14h00 (5h00)",
+    "ar": "09:00 - 14:00 (5 س 00 د)",
+    "es": "09:00 - 14:00 (5h 00m)",
+    "de": "09:00 - 14:00 (5h 00m)",
+    "it": "09:00 - 14:00 (5h 00min)",
+    "pt": "09h00 - 14h00 (5h00)"
+  },
+  "Completion Readiness": {
+    "fr": "Préparation à l'achèvement",
+    "ar": "جاهزية الإكمال",
+    "es": "Preparación para la finalización",
+    "de": "Fertigstellungsbereitschaft",
+    "it": "Prontezza al completamento",
+    "pt": "Prontidão para conclusão"
+  },
+  "Missing required: Client Email": {
+    "fr": "Manquant requis : e-mail du client",
+    "ar": "مطلوب مفقود: البريد الإلكتروني للعميل",
+    "es": "Falta requerido: Correo electrónico del cliente",
+    "de": "Fehlt erforderlich: Kunden-E-Mail",
+    "it": "Mancante obbligatorio: e-mail del cliente",
+    "pt": "Obrigatório ausente: E-mail do cliente"
+  },
+  "Discard Form": {
+    "fr": "Formulaire de rejet",
+    "ar": "تجاهل النموذج",
+    "es": "Descartar formulario",
+    "de": "Formular verwerfen",
+    "it": "Elimina modulo",
+    "pt": "Formulário de Descarte"
+  },
+  "Save as Draft": {
+    "fr": "Enregistrer comme brouillon",
+    "ar": "حفظ كمسودة",
+    "es": "Guardar como borrador",
+    "de": "Als Entwurf speichern",
+    "it": "Salva come bozza",
+    "pt": "Salvar como rascunho"
+  },
+  "Preview": {
+    "ar": "معاينة",
+    "fr": "Aperçu",
+    "es": "Avance",
+    "pt": "Visualização",
+    "it": "Anteprima",
+    "de": "Vorschau"
+  },
+  "Confirm & Assign": {
+    "ar": "تأكيد وتعيين",
+    "fr": "Confirmer et attribuer",
+    "de": "Bestätigen und zuweisen",
+    "es": "Confirmar y asignar",
+    "pt": "Confirmar e atribuir",
+    "it": "Conferma e assegna"
+  },
+  "Search existing client...": {
+    "ar": "البحث عن العميل الحالي...",
+    "es": "Buscar cliente existente...",
+    "fr": "Rechercher un client existant...",
+    "pt": "Pesquisar cliente existente...",
+    "de": "Bestehenden Kunden durchsuchen...",
+    "it": "Cerca cliente esistente..."
+  },
+  "Street Address": {
+    "fr": "Adresse de la rue",
+    "es": "Dirección",
+    "ar": "عنوان الشارع",
+    "pt": "Endereço da Rua",
+    "de": "Straßenadresse",
+    "it": "Indirizzo stradale"
+  },
+  "City": {
+    "fr": "Ville",
+    "it": "Città",
+    "ar": "مدينة",
+    "de": "Stadt",
+    "es": "Ciudad",
+    "pt": "Cidade"
+  },
+  "Postal Code": {
+    "fr": "Code Postal",
+    "it": "Codice Postale",
+    "ar": "رمز بريدي",
+    "de": "Postleitzahl",
+    "es": "Código Postal",
+    "pt": "Código postal"
+  },
+  "Country": {
+    "es": "País",
+    "de": "Land",
+    "fr": "Pays",
+    "it": "Paese",
+    "ar": "دولة",
+    "pt": "País"
+  },
+  "Access instructions or site specific notes... (e.g. Call security at gate)": {
+    "fr": "Instructions d'accès ou notes spécifiques au site... (par exemple, appeler la sécurité à la porte)",
+    "pt": "Instruções de acesso ou notas específicas do local... (por exemplo, ligue para a segurança no portão)",
+    "es": "Instrucciones de acceso o notas específicas del sitio... (por ejemplo, llamar a seguridad en la puerta)",
+    "ar": "تعليمات الوصول أو ملاحظات خاصة بالموقع... (مثل الاتصال بالأمن عند البوابة)",
+    "de": "Zugangsanweisungen oder standortspezifische Hinweise ... (z. B. Sicherheitsruf am Tor)",
+    "it": "Istruzioni di accesso o note specifiche del sito... (ad es. Chiama la sicurezza al cancello)"
+  },
+  "Describe what needs to be done...": {
+    "es": "Describe lo que hay que hacer...",
+    "ar": "وصف ما يجب القيام به...",
+    "fr": "Décrivez ce qui doit être fait...",
+    "pt": "Descreva o que precisa ser feito...",
+    "it": "Descrivi cosa bisogna fare...",
+    "de": "Beschreiben Sie, was getan werden muss ..."
+  },
+  "Private notes (not visible to client)...": {
+    "ar": "ملاحظات خاصة (غير مرئية للعميل)...",
+    "es": "Notas privadas (no visibles para el cliente)...",
+    "fr": "Notes privées (non visibles par le client)...",
+    "it": "Note private (non visibili al cliente)...",
+    "pt": "Notas privadas (não visíveis para o cliente)...",
+    "de": "Private Notizen (für den Kunden nicht sichtbar)..."
+  },
+  "Intervention Order Preview": {
+    "ar": "معاينة أمر التدخل",
+    "es": "Vista previa de la orden de intervención",
+    "fr": "Aperçu de l'ordre d'intervention",
+    "it": "Anteprima dell'ordine di intervento",
+    "pt": "Pré-visualização da Ordem de Intervenção",
+    "de": "Vorschau der Interventionsanordnung"
+  },
+  "Print": {
+    "ar": "مطبعة",
+    "de": "Drucken",
+    "pt": "Imprimir",
+    "fr": "Imprimer",
+    "es": "Imprimir",
+    "it": "Stampa"
+  },
+  "Close": {
+    "ar": "يغلق",
+    "it": "Vicino",
+    "de": "Schließen",
+    "es": "Cerca",
+    "pt": "Fechar",
+    "fr": "Fermer"
+  },
+  "SIT-ERP Corp Ltd.": {
+    "it": "SIT-ERP Corp Ltd.",
+    "ar": "شركة SIT-ERP المحدودة",
+    "fr": "SIT-ERP Corp.",
+    "es": "SIT-ERP Corp Ltd.",
+    "de": "SIT-ERP Corp Ltd.",
+    "pt": "SIT-ERP Corp."
+  },
+  "Smart Enterprise Solutions": {
+    "pt": "Soluções Empresariais Inteligentes",
+    "es": "Soluciones empresariales inteligentes",
+    "de": "Intelligente Unternehmenslösungen",
+    "ar": "حلول المؤسسات الذكية",
+    "fr": "Solutions d'entreprise intelligentes",
+    "it": "Soluzioni aziendali intelligenti"
+  },
+  "123 Business Rd., HQ Block": {
+    "pt": "123 Business Rd., Bloco HQ",
+    "es": "123 Business Rd., bloque HQ",
+    "de": "123 Business Rd., HQ-Block",
+    "ar": "123 طريق الأعمال، مبنى المقر الرئيسي",
+    "it": "123 Business Rd., Blocco HQ",
+    "fr": "123, chemin Business, bloc QG"
+  },
+  "London, UK EC1A 1BB": {
+    "ar": "لندن، المملكة المتحدة EC1A 1BB",
+    "pt": "Londres, Reino Unido EC1A 1BB",
+    "fr": "Londres, Royaume-Uni EC1A 1BB",
+    "es": "Londres, Reino Unido EC1A 1BB",
+    "de": "London, Großbritannien EC1A 1BB",
+    "it": "Londra, Regno Unito EC1A 1BB"
+  },
+  "contact@nexus.corp": {
+    "ar": "contact@nexus.corp",
+    "fr": "contact@nexus.corp",
+    "es": "contacto@nexus.corp",
+    "it": "contact@nexus.corp",
+    "pt": "contact@nexus.corp",
+    "de": "contact@nexus.corp"
+  },
+  "BON D'INTERVENTION": {
+    "it": "BUON INTERVENTO",
+    "ar": "تدخل جيد",
+    "fr": "BON D'INTERVENTION",
+    "es": "BUENA INTERVENCIÓN",
+    "pt": "BON D'INTERVENTION",
+    "de": "BON D'INTERVENTION"
+  },
+  "Ref: BI-2024-00142": {
+    "ar": "المرجع: BI-2024-00142",
+    "it": "Rif: BI-2024-00142",
+    "fr": "Réf : BI-2024-00142",
+    "es": "Ref: BI-2024-00142",
+    "pt": "Ref.: BI-2024-00142",
+    "de": "Ref: BI-2024-00142"
+  },
+  "Client Information": {
+    "fr": "Informations client",
+    "pt": "Informações do cliente",
+    "es": "Información del cliente",
+    "ar": "معلومات العميل",
+    "de": "Kundeninformationen",
+    "it": "Informazioni sul cliente"
+  },
+  "Contact Details": {
+    "fr": "Coordonnées",
+    "ar": "تفاصيل الاتصال",
+    "de": "Kontaktdaten",
+    "es": "Detalles de contacto",
+    "it": "Dettagli di contatto",
+    "pt": "Detalhes de contato"
+  },
+  "Site Address": {
+    "fr": "Adresse du site",
+    "ar": "عنوان الموقع",
+    "it": "Indirizzo del sito",
+    "es": "Dirección del sitio",
+    "pt": "Endereço do site",
+    "de": "Site-Adresse"
+  },
+  "Intervention Metadata": {
+    "ar": "البيانات الوصفية للتدخل",
+    "fr": "Métadonnées d'intervention",
+    "it": "Metadati di intervento",
+    "es": "Metadatos de intervención",
+    "de": "Interventionsmetadaten",
+    "pt": "Metadados de Intervenção"
+  },
+  "Creation Date:": {
+    "fr": "Date de création :",
+    "ar": "تاريخ الإنشاء:",
+    "es": "Fecha de creación:",
+    "it": "Data di creazione:",
+    "pt": "Data de criação:",
+    "de": "Erstellungsdatum:"
+  },
+  "May 03, 2026": {
+    "es": "03 de mayo de 2026",
+    "it": "3 maggio 2026",
+    "pt": "03 de maio de 2026",
+    "de": "03. Mai 2026",
+    "fr": "03 mai 2026",
+    "ar": "03 مايو 2026"
+  },
+  "Planned Date:": {
+    "it": "Data pianificata:",
+    "ar": "التاريخ المخطط له:",
+    "fr": "Date prévue :",
+    "es": "Fecha prevista:",
+    "pt": "Data planejada:",
+    "de": "Geplanter Termin:"
+  },
+  "Time / Duration:": {
+    "it": "Tempo/Durata:",
+    "ar": "الوقت / المدة:",
+    "fr": "Temps/Durée :",
+    "es": "Hora / Duración:",
+    "pt": "Tempo / Duração:",
+    "de": "Zeit/Dauer:"
+  },
+  "Type:": {
+    "ar": "يكتب:",
+    "de": "Typ:",
+    "it": "Tipo:",
+    "fr": "Taper:",
+    "pt": "Tipo:",
+    "es": "Tipo:"
+  },
+  "Priority:": {
+    "es": "Prioridad:",
+    "it": "Priorità:",
+    "ar": "أولوية:",
+    "fr": "Priorité:",
+    "de": "Priorität:",
+    "pt": "Prioridade:"
+  },
+  "Status:": {
+    "de": "Status:",
+    "it": "Stato:",
+    "ar": "حالة:",
+    "pt": "Status:",
+    "fr": "Statut:",
+    "es": "Estado:"
+  },
+  "Assignee:": {
+    "fr": "Cessionnaire:",
+    "es": "Cesionario:",
+    "ar": "المكلف:",
+    "it": "Assegnatario:",
+    "de": "Bevollmächtigter:",
+    "pt": "Cessionário:"
+  },
+  "Description of Work": {
+    "fr": "Description des travaux",
+    "it": "Descrizione del lavoro",
+    "es": "Descripción del trabajo",
+    "de": "Beschreibung der Arbeit",
+    "ar": "وصف العمل",
+    "pt": "Descrição do Trabalho"
+  },
+  "No description provided.": {
+    "ar": "لم يتم تقديم أي وصف.",
+    "fr": "Aucune description fournie.",
+    "it": "Nessuna descrizione fornita.",
+    "es": "No se proporciona descripción.",
+    "de": "Keine Beschreibung angegeben.",
+    "pt": "Nenhuma descrição fornecida."
+  },
+  "Materials & Parts Required": {
+    "es": "Materiales y piezas necesarios",
+    "it": "Materiali e parti richiesti",
+    "de": "Erforderliche Materialien und Teile",
+    "fr": "Matériaux et pièces requis",
+    "pt": "Materiais e peças necessários",
+    "ar": "المواد والأجزاء المطلوبة"
+  },
+  "Reference": {
+    "es": "Referencia",
+    "pt": "Referência",
+    "ar": "مرجع",
+    "fr": "Référence",
+    "de": "Referenz",
+    "it": "Riferimento"
+  },
+  "Unit Price": {
+    "es": "Precio unitario",
+    "it": "Prezzo unitario",
+    "pt": "Preço unitário",
+    "fr": "Prix ​​unitaire",
+    "de": "Stückpreis",
+    "ar": "سعر الوحدة"
+  },
+  "Total": {
+    "pt": "Total",
+    "it": "Totale",
+    "ar": "المجموع",
+    "fr": "Total",
+    "de": "Gesamt",
+    "es": "Total"
+  },
+  "P-HV-001": {
+    "es": "P-HV-001",
+    "ar": "ف-HV-001",
+    "fr": "P-HV-001",
+    "it": "P-HV-001",
+    "pt": "P-HV-001",
+    "de": "P-HV-001"
+  },
+  "HVAC Pro Series B": {
+    "pt": "HVAC Pro Série B",
+    "it": "HVAC Pro Serie B",
+    "fr": "CVC Pro Série B",
+    "ar": "HVAC Pro السلسلة ب",
+    "de": "HVAC Pro Serie B",
+    "es": "Climatización Pro Serie B"
+  },
+  "1 u": {
+    "es": "1 ud",
+    "ar": "1 ش",
+    "pt": "1 você",
+    "it": "1 u",
+    "fr": "1 toi",
+    "de": "1 St"
+  },
+  "C-TAP-HD": {
+    "pt": "C-TAP-HD",
+    "fr": "C-TAP-HD",
+    "it": "C-TAP-HD",
+    "ar": "سي-تاب-HD",
+    "de": "C-TAP-HD",
+    "es": "C-TAP-HD"
+  },
+  "Sealant Tape Heavy Duty": {
+    "ar": "شريط مانع التسرب للخدمة الشاقة",
+    "fr": "Ruban d'étanchéité robuste",
+    "pt": "Fita Selante Pesada",
+    "es": "Cinta selladora resistente",
+    "it": "Nastro sigillante resistente",
+    "de": "Dichtband Heavy Duty"
+  },
+  "3 roll": {
+    "pt": "3 rolos",
+    "ar": "3 لفة",
+    "fr": "3 rouleaux",
+    "es": "3 rollos",
+    "it": "3 rotoli",
+    "de": "3 Rollen"
+  },
+  "Total Estimated": {
+    "ar": "المجموع المقدر",
+    "fr": "Total estimé",
+    "pt": "Total estimado",
+    "es": "Total estimado",
+    "de": "Gesamtwert geschätzt",
+    "it": "Totale stimato"
+  },
+  "Technician Signature": {
+    "ar": "توقيع فني",
+    "fr": "Signature du technicien",
+    "es": "Firma del técnico",
+    "de": "Unterschrift des Technikers",
+    "it": "Firma del tecnico",
+    "pt": "Assinatura do Técnico"
+  },
+  "Date : __________________": {
+    "fr": "Date : __________________",
+    "de": "Datum : __________________",
+    "ar": "تاريخ : __________________",
+    "pt": "Data : __________________",
+    "es": "Fecha : __________________",
+    "it": "Data : __________________"
+  },
+  "Client Signature": {
+    "fr": "Signature du client",
+    "ar": "توقيع العميل",
+    "es": "Firma del cliente",
+    "de": "Kundensignatur",
+    "it": "Firma del cliente",
+    "pt": "Assinatura do Cliente"
+  },
+  "SIT-ERP Corp Ltd. - Document generated automatically": {
+    "es": "SIT-ERP Corp Ltd. - Documento generado automáticamente",
+    "pt": "SIT-ERP Corp Ltd. - Documento gerado automaticamente",
+    "ar": "SIT-ERP Corp Ltd. - يتم إنشاء المستند تلقائيًا",
+    "de": "SIT-ERP Corp Ltd. – Dokument automatisch generiert",
+    "fr": "SIT-ERP Corp Ltd. - Document généré automatiquement",
+    "it": "SIT-ERP Corp Ltd. - Documento generato automaticamente"
+  },
+  "Page 1 / 1": {
+    "de": "Seite 1 / 1",
+    "ar": "الصفحة 1 / 1",
+    "fr": "Page 1 / 1",
+    "pt": "Página 1/1",
+    "it": "Pagina 1 / 1",
+    "es": "Página 1 / 1"
+  },
+  "Stock Alerts & Reorder Engine": {
+    "it": "Avvisi di stock e motore di riordino",
+    "de": "Bestandswarnungen und Nachbestellungsmaschine",
+    "pt": "Alertas de estoque e mecanismo de reordenamento",
+    "ar": "تنبيهات المخزون ومحرك إعادة الطلب",
+    "fr": "Alertes de stock et moteur de réapprovisionnement",
+    "es": "Alertas de stock y motor de reorden"
+  },
+  "Products requiring immediate attention based on thresholds.": {
+    "es": "Productos que requieren atención inmediata según umbrales.",
+    "ar": "المنتجات التي تتطلب اهتمامًا فوريًا بناءً على الحدود.",
+    "de": "Produkte, die aufgrund von Schwellenwerten sofortige Aufmerksamkeit erfordern.",
+    "it": "Prodotti che richiedono attenzione immediata in base a soglie.",
+    "fr": "Produits nécessitant une attention immédiate en fonction de seuils.",
+    "pt": "Produtos que requerem atenção imediata com base em limites."
+  },
+  "Auto-Generate POs": {
+    "fr": "Générer automatiquement des bons de commande",
+    "es": "Generar órdenes de compra automáticamente",
+    "ar": "إنشاء أوامر الشراء تلقائيًا",
+    "de": "Bestellungen automatisch generieren",
+    "pt": "Gerar pedidos automaticamente",
+    "it": "Ordini di acquisto generati automaticamente"
+  },
+  "Completely Out of Stock": {
+    "es": "Completamente agotado",
+    "pt": "Completamente fora de estoque",
+    "ar": "نفدت الكمية تمامًا",
+    "de": "Völlig ausverkauft",
+    "fr": "Complètement en rupture de stock",
+    "it": "Completamente esaurito"
+  },
+  "Stock is at": {
+    "es": "Las acciones están en",
+    "pt": "O estoque está em",
+    "ar": "المخزون عند",
+    "de": "Der Lagerbestand liegt bei",
+    "fr": "Le stock est à",
+    "it": "Le scorte sono a"
+  },
+  ", dropping below minimum threshold of": {
+    "es": ", cayendo por debajo del umbral mínimo de",
+    "ar": "، وتنخفض إلى ما دون الحد الأدنى من",
+    "pt": ", caindo abaixo do limite mínimo de",
+    "it": ", scendendo sotto la soglia minima di",
+    "de": ", Unterschreitung des Mindestschwellenwerts von",
+    "fr": ", tombant en dessous du seuil minimum de"
+  },
+  "Supplier": {
+    "ar": "مزود",
+    "fr": "Fournisseur",
+    "it": "Fornitore",
+    "es": "Proveedor",
+    "de": "Anbieter",
+    "pt": "Fornecedor"
+  },
+  "Monthly Avg Use": {
+    "es": "Uso promedio mensual",
+    "it": "Utilizzo medio mensile",
+    "ar": "متوسط ​​الاستخدام الشهري",
+    "pt": "Uso médio mensal",
+    "de": "Monatliche durchschnittliche Nutzung",
+    "fr": "Utilisation mensuelle moyenne"
+  },
+  "~120 units": {
+    "es": "~120 unidades",
+    "it": "~120 unità",
+    "ar": "~ 120 وحدة",
+    "pt": "~120 unidades",
+    "de": "~120 Einheiten",
+    "fr": "~120 unités"
+  },
+  "Smart Suggestion": {
+    "ar": "اقتراح ذكي",
+    "es": "Sugerencia inteligente",
+    "fr": "Suggestion intelligente",
+    "pt": "Sugestão Inteligente",
+    "it": "Suggerimento intelligente",
+    "de": "Kluger Vorschlag"
+  },
+  "Reorder": {
+    "pt": "Reordenar",
+    "fr": "Réorganiser",
+    "ar": "إعادة الترتيب",
+    "it": "Riordina",
+    "es": "Reordenar",
+    "de": "Neu anordnen"
+  },
+  "250 units": {
+    "es": "250 unidades",
+    "it": "250 unità",
+    "pt": "250 unidades",
+    "ar": "250 وحدة",
+    "fr": "250 unités",
+    "de": "250 Einheiten"
+  },
+  "to restore target capacity.": {
+    "fr": "pour restaurer la capacité cible.",
+    "it": "per ripristinare la capacità target.",
+    "ar": "لاستعادة القدرة المستهدفة.",
+    "de": "Zielkapazität wiederherzustellen.",
+    "es": "para restaurar la capacidad objetivo.",
+    "pt": "para restaurar a capacidade alvo."
+  },
+  "Create PO": {
+    "ar": "إنشاء أمر الشراء",
+    "pt": "Criar pedido de compra",
+    "es": "Crear orden de compra",
+    "de": "Bestellung erstellen",
+    "it": "Crea ordine d'acquisto",
+    "fr": "Créer un bon de commande"
+  },
+  "Request Transfer instead": {
+    "de": "Fordern Sie stattdessen eine Übertragung an",
+    "ar": "طلب نقل بدلا من ذلك",
+    "it": "Richiedi invece il trasferimento",
+    "es": "Solicitar transferencia en su lugar",
+    "fr": "Demander un transfert à la place",
+    "pt": "Solicitar transferência"
+  },
+  "Supplier & Replenishment": {
+    "de": "Lieferant & Nachschub",
+    "ar": "المورد والتجديد",
+    "it": "Fornitore e rifornimento",
+    "es": "Proveedor y reabastecimiento",
+    "fr": "Fournisseur et réapprovisionnement",
+    "pt": "Fornecedor e reabastecimento"
+  },
+  "Manage incoming stock and purchase orders.": {
+    "es": "Gestionar el stock entrante y las órdenes de compra.",
+    "ar": "إدارة المخزون الوارد وأوامر الشراء.",
+    "fr": "Gérer les entrées de stock et les bons de commande.",
+    "de": "Verwalten Sie eingehende Lagerbestände und Bestellungen.",
+    "pt": "Gerenciar estoque de entrada e pedidos de compra.",
+    "it": "Gestisci le scorte in entrata e gli ordini di acquisto."
+  },
+  "New Purchase Order": {
+    "ar": "أمر شراء جديد",
+    "de": "Neue Bestellung",
+    "it": "Nuovo ordine di acquisto",
+    "es": "Nueva orden de compra",
+    "pt": "Novo pedido de compra",
+    "fr": "Nouveau bon de commande"
+  },
+  "No Pending Deliveries": {
+    "it": "Nessuna consegna in sospeso",
+    "de": "Keine ausstehenden Lieferungen",
+    "es": "Sin entregas pendientes",
+    "ar": "لا يوجد تسليمات معلقة",
+    "pt": "Sem entregas pendentes",
+    "fr": "Aucune livraison en attente"
+  },
+  "Your supply chain is fully caught up.": {
+    "ar": "سلسلة التوريد الخاصة بك مشغولة بالكامل.",
+    "es": "Su cadena de suministro está totalmente al día.",
+    "de": "Ihre Lieferkette ist völlig überlastet.",
+    "fr": "Votre chaîne d’approvisionnement est pleinement rattrapée.",
+    "pt": "Sua cadeia de suprimentos está totalmente atualizada.",
+    "it": "La tua catena di fornitura è completamente coinvolta."
+  },
+  "ABC Analysis, Stock Rotation, and Performance Metrics.": {
+    "it": "Analisi ABC, rotazione delle azioni e parametri di performance.",
+    "es": "Análisis ABC, Rotación de Stock y Métricas de Desempeño.",
+    "ar": "تحليل ABC، وتناوب الأسهم، ومقاييس الأداء.",
+    "fr": "Analyse ABC, rotation des stocks et mesures de performance.",
+    "pt": "Análise ABC, rotação de estoque e métricas de desempenho.",
+    "de": "ABC-Analyse, Lagerrotation und Leistungskennzahlen."
+  },
+  "Last 30 Days": {
+    "es": "Últimos 30 días",
+    "fr": "30 derniers jours",
+    "ar": "آخر 30 يومًا",
+    "pt": "Últimos 30 dias",
+    "it": "Ultimi 30 giorni",
+    "de": "Letzte 30 Tage"
+  },
+  "Year to Date": {
+    "pt": "No acumulado do ano",
+    "es": "El año hasta la fecha",
+    "it": "Da inizio anno",
+    "ar": "منذ بدلية العام ز حتى اليوم",
+    "fr": "Année à ce jour",
+    "de": "Der bisherige Jahresverlauf"
+  },
+  "Stock Turnover Rate Chart": {
+    "es": "Gráfico de tasa de rotación de acciones",
+    "ar": "مخطط معدل دوران الأسهم",
+    "fr": "Graphique du taux de rotation des actions",
+    "pt": "Gráfico de taxa de giro de ações",
+    "de": "Diagramm der Aktienumschlagsrate",
+    "it": "Grafico del tasso di rotazione delle azioni"
+  },
+  "ABC Classification Pie": {
+    "es": "Pastel de clasificación ABC",
+    "ar": "فطيرة تصنيف ABC",
+    "fr": "Tarte de classification ABC",
+    "pt": "Torta de Classificação ABC",
+    "de": "ABC-Klassifizierungskuchen",
+    "it": "Torta di classificazione ABC"
+  },
+  "Slow Moving & Dead Stock List": {
+    "es": "Lista de existencias muertas y de movimiento lento",
+    "ar": "بطيئة الحركة وقائمة الأسهم الميتة",
+    "pt": "Lista de ações lentas e mortas",
+    "fr": "Liste des stocks lents et morts",
+    "de": "Liste mit langsamen Lagerbeständen und toten Lagerbeständen",
+    "it": "Elenco delle azioni a movimento lento e inattivo"
+  },
+  ";\n  if (status === 'Low') return": {
+    "es": ";\n  si (estado === 'Bajo') regresa",
+    "ar": ";\n  إذا عادت (الحالة === 'منخفضة').",
+    "pt": ";\n  if (status === 'Baixo') retornar",
+    "fr": ";\n  si (statut === 'Faible') retourne",
+    "de": ";\n  if (status === 'Low') Rückkehr",
+    "it": ";\n  if (stato === 'Basso') return"
+  },
+  ";\n  return": {
+    "es": ";\n  devolver",
+    "pt": ";\n  retornar",
+    "fr": ";\n  retour",
+    "ar": ";\n  يعود",
+    "it": ";\n  ritorno",
+    "de": ";\n  zurückkehren"
+  },
+  "onSelectProduct(null)} />;\n    }\n  }\n\n  return (": {
+    "pt": "onSelectProduct(null)} />;\n    }\n  }\n\n  retornar (",
+    "ar": "onSelectProduct(null)} />;\n    }\n  }\n\n  يعود (",
+    "de": "onSelectProduct(null)} />;\n    }\n  }\n\n  zurückkehren (",
+    "es": "onSelectProduct(nulo)} />;\n    }\n  }\n\n  devolver (",
+    "fr": "onSelectProduct(null)} />;\n    }\n  }\n\n  retour (",
+    "it": "onSelectProduct(null)} />;\n    }\n  }\n\n  ritorno ("
+  },
+  "Filters": {
+    "fr": "Filtres",
+    "de": "Filter",
+    "pt": "Filtros",
+    "ar": "المرشحات",
+    "it": "Filtri",
+    "es": "Filtros"
+  },
+  "New Product": {
+    "es": "Nuevo producto",
+    "fr": "Nouveau produit",
+    "ar": "منتج جديد",
+    "de": "Neues Produkt",
+    "it": "Nuovo prodotto",
+    "pt": "Novo produto"
+  },
+  "Product Info": {
+    "de": "Produktinformationen",
+    "ar": "معلومات المنتج",
+    "es": "Información del producto",
+    "pt": "Informações do produto",
+    "fr": "Informations sur le produit",
+    "it": "Informazioni sul prodotto"
+  },
+  "Category": {
+    "fr": "Catégorie",
+    "es": "Categoría",
+    "it": "Categoria",
+    "ar": "فئة",
+    "de": "Kategorie",
+    "pt": "Categoria"
+  },
+  "Stock Level": {
+    "ar": "مستوى المخزون",
+    "es": "Nivel de existencias",
+    "pt": "Nível de estoque",
+    "de": "Lagerbestand",
+    "fr": "Niveau de stock",
+    "it": "Livello delle scorte"
+  },
+  "onSelectProduct(product.id)}\n                        className=\"p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors opacity-0 group-hover:opacity-100 mr-1\"\n                        title=\"View Details\"\n                      >": {
+    "es": "onSelectProduct(producto.id)}\n                        className=\"p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg colores de transición opacidad-0 grupo-hover:opacidad-100 mr-1\"\n                        título=\"Ver detalles\"\n                      >",
+    "fr": "onSelectProduct(product.id)}\n                        className=\"p-2 text-slate-400 survol:text-indigo-600 survol:bg-indigo-50 arrondi-lg couleurs de transition opacité-0 groupe-survol:opacité-100 mr-1\"\n                        title=\"Afficher les détails\"\n                      >",
+    "de": "onSelectProduct(product.id)}\n                        className=\"p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50rounded-lg transit-colors opacity-0 group-hover:opacity-100 mr-1\"\n                        title=\"Details anzeigen\"\n                      >",
+    "pt": "onSelectProduct(produto.id)}\n                        className = \"p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 arredondado-lg transição-cores opacity-0 group-hover:opacity-100 mr-1\"\n                        title=\"Ver detalhes\"\n                      >",
+    "it": "onSelectProduct(prodotto.id)}\n                        className=\"p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 arrotondato-lg colori di transizione opacità-0 group-hover:opacity-100 mr-1\"\n                        titolo=\"Visualizza dettagli\"\n                      >",
+    "ar": "onSelectProduct(product.id)}\n                        className = \"p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg Transition-colors opacity-0 group-hover:opacity-100 mr-1\"\n                        العنوان = \"عرض التفاصيل\"\n                      >"
+  },
+  "Location": {
+    "it": "Posizione",
+    "pt": "Localização",
+    "es": "Ubicación",
+    "de": "Standort",
+    "ar": "موقع",
+    "fr": "Emplacement"
+  },
+  "Total Val": {
+    "es": "Valor total",
+    "ar": "مجموع فال",
+    "de": "Gesamtwert",
+    "fr": "Valeur totale",
+    "pt": "Valor Total",
+    "it": "Val. totale"
+  },
+  "Showing 1 to 6 of 4,892 items": {
+    "fr": "Affichage de 1 à 6 sur 4 892 articles",
+    "es": "Mostrando 1 a 6 de 4,892 artículos",
+    "ar": "عرض 1 إلى 6 من أصل 4,892 عنصر",
+    "pt": "Exibindo de 1 a 6 de 4.892 itens",
+    "it": "Mostrando da 1 a 6 di 4.892 articoli",
+    "de": "Zeigt 1 bis 6 von 4.892 Artikeln"
+  },
+  "Search SKU, name, supplier...": {
+    "pt": "Pesquise SKU, nome, fornecedor...",
+    "fr": "Rechercher un SKU, un nom, un fournisseur...",
+    "es": "Buscar SKU, nombre, proveedor...",
+    "it": "Cerca SKU, nome, fornitore...",
+    "de": "Suchen Sie nach SKU, Name, Lieferant ...",
+    "ar": "ابحث عن SKU والاسم والمورد..."
+  },
+  "Physical Inventory Counting": {
+    "pt": "Contagem de inventário físico",
+    "fr": "Inventaire physique",
+    "es": "Conteo de inventario físico",
+    "it": "Conteggio dell'inventario fisico",
+    "de": "Inventurzählung",
+    "ar": "عد المخزون المادي"
+  },
+  "Conduct cyclic counts or full physical inventory checks. Scan items on the floor, compare with theoretical stock, and resolve discrepancies before finalizing.": {
+    "de": "Führen Sie zyklische Zählungen oder vollständige Inventurprüfungen durch. Scannen Sie Artikel auf dem Boden, vergleichen Sie sie mit dem theoretischen Bestand und beheben Sie Unstimmigkeiten, bevor Sie den Vorgang abschließen.",
+    "it": "Effettuare conteggi ciclici o controlli completi dell'inventario fisico. Esegui la scansione degli articoli sul pavimento, confrontali con lo stock teorico e risolvi le discrepanze prima della finalizzazione.",
+    "fr": "Effectuer des décomptes cycliques ou des contrôles d’inventaire physique complets. Scannez les articles sur le sol, comparez avec le stock théorique et résolvez les écarts avant de finaliser.",
+    "es": "Realice recuentos cíclicos o comprobaciones completas del inventario físico. Escanee los artículos en el piso, compárelos con el stock teórico y resuelva las discrepancias antes de finalizar.",
+    "ar": "إجراء عمليات إحصاء دورية أو فحوصات جرد مادية كاملة. قم بمسح العناصر الموجودة على الأرض ومقارنتها بالمخزون النظري وحل التناقضات قبل الانتهاء.",
+    "pt": "Realize contagens cíclicas ou verificações completas do inventário físico. Digitalize os itens no chão, compare com o estoque teórico e resolva as discrepâncias antes de finalizar."
+  },
+  "Start New Session": {
+    "ar": "ابدأ جلسة جديدة",
+    "fr": "Démarrer une nouvelle session",
+    "it": "Inizia una nuova sessione",
+    "pt": "Iniciar nova sessão",
+    "de": "Neue Sitzung starten",
+    "es": "Iniciar nueva sesión"
+  },
+  "Warehouse A - Entire": {
+    "fr": "Entrepôt A - Entier",
+    "de": "Lager A – Gesamt",
+    "ar": "المستودع أ - بالكامل",
+    "it": "Magazzino A - Intero",
+    "pt": "Armazém A - Inteiro",
+    "es": "Almacén A - Completo"
+  },
+  "Warehouse A - Zone 1 Only": {
+    "es": "Almacén A - Sólo Zona 1",
+    "ar": "المستودع أ - المنطقة 1 فقط",
+    "fr": "Entrepôt A - Zone 1 uniquement",
+    "pt": "Armazém A - Somente Zona 1",
+    "de": "Lager A – Nur Zone 1",
+    "it": "Magazzino A - Solo Zona 1"
+  },
+  "Warehouse B": {
+    "fr": "Entrepôt B",
+    "ar": "المستودع ب",
+    "es": "Almacén B",
+    "de": "Lager B",
+    "pt": "Armazém B",
+    "it": "Magazzino B"
+  },
+  "Me (Adrian Sterling)": {
+    "ar": "أنا (أدريان سترلينج)",
+    "de": "Ich (Adrian Sterling)",
+    "pt": "Eu (Adrian Sterling)",
+    "es": "Yo (Adrián Sterling)",
+    "fr": "Moi (Adrian Sterling)",
+    "it": "Io (Adrian Sterling)"
+  },
+  "Sarah Jenks": {
+    "ar": "سارة جينكس",
+    "de": "Sarah Jenks",
+    "pt": "Sarah Jenks",
+    "es": "Sara Jenks",
+    "fr": "Sarah Jenks",
+    "it": "Sarah Jenks"
+  },
+  "Start Counting": {
+    "ar": "ابدأ العد",
+    "de": "Beginnen Sie mit dem Zählen",
+    "pt": "Comece a contar",
+    "es": "Empezar a contar",
+    "fr": "Commencez à compter",
+    "it": "Inizia a contare"
+  },
+  "Real-time Overview": {
+    "es": "Descripción general en tiempo real",
+    "de": "Echtzeit-Übersicht",
+    "ar": "نظرة عامة في الوقت الحقيقي",
+    "it": "Panoramica in tempo reale",
+    "fr": "Aperçu en temps réel",
+    "pt": "Visão geral em tempo real"
+  },
+  "Last synced: Just now": {
+    "ar": "آخر مزامنة: الآن",
+    "de": "Zuletzt synchronisiert: Gerade eben",
+    "es": "Última sincronización: justo ahora",
+    "it": "Ultima sincronizzazione: proprio ora",
+    "fr": "Dernière synchronisation : Tout à l'heure",
+    "pt": "Última sincronização: agora mesmo"
+  },
+  "Inventory Value Evolution": {
+    "es": "Evolución del valor del inventario",
+    "fr": "Évolution de la valeur des stocks",
+    "ar": "تطور قيمة المخزون",
+    "pt": "Evolução do valor do estoque",
+    "it": "Evoluzione del valore dell'inventario",
+    "de": "Entwicklung des Lagerwerts"
+  },
+  "Last 6 Months": {
+    "ar": "آخر 6 أشهر",
+    "es": "Últimos 6 meses",
+    "fr": "6 derniers mois",
+    "de": "Letzte 6 Monate",
+    "it": "Ultimi 6 mesi",
+    "pt": "Últimos 6 meses"
+  },
+  "Jun": {
+    "es": "Jun",
+    "ar": "يونيو",
+    "pt": "junho",
+    "de": "Jun",
+    "it": "giugno",
+    "fr": "juin"
+  },
+  "Aug": {
+    "de": "Aug",
+    "ar": "أغسطس",
+    "fr": "Août",
+    "es": "Ago",
+    "it": "Agosto",
+    "pt": "Agosto"
+  },
+  "Oct": {
+    "es": "Oct",
+    "de": "Okt",
+    "pt": "Outubro",
+    "ar": "أكتوبر",
+    "it": "ottobre",
+    "fr": "Octobre"
+  },
+  "Overall Stock Health": {
+    "es": "Salud general de las acciones",
+    "ar": "صحة المخزون بشكل عام",
+    "de": "Gesamtbestandsgesundheit",
+    "fr": "Santé globale des stocks",
+    "pt": "Saúde geral do estoque",
+    "it": "Salute generale delle azioni"
+  },
+  "75% Healthy": {
+    "de": "75 % gesund",
+    "es": "75% Saludable",
+    "ar": "75% صحي",
+    "fr": "75 % en bonne santé",
+    "pt": "75% Saudável",
+    "it": "75% sano"
+  },
+  "10% Alerts": {
+    "de": "10 % Warnungen",
+    "es": "10% Alertas",
+    "ar": "10% تنبيهات",
+    "fr": "10 % d'alertes",
+    "pt": "Alertas de 10%",
+    "it": "10% Avvisi"
+  },
+  "Top Moving Products": {
+    "es": "Principales productos de mudanza",
+    "ar": "أعلى المنتجات المتحركة",
+    "fr": "Meilleurs produits de déménagement",
+    "de": "Top-Umzugsprodukte",
+    "pt": "Principais produtos em movimento",
+    "it": "I migliori prodotti in movimento"
+  },
+  "onNavigate('catalog')}\n             className=\"w-full mt-4 flex items-center justify-center gap-2 py-2 text-xs font-bold text-indigo-600 bg-indigo-50 rounded-lg hover:bg-indigo-100 transition-colors\"\n          >\n            View All Catalog": {
+    "de": "onNavigate('catalog')}\n             className=\"w-full mt-4 Flex Items-Center Justify-Center Gap-2 py-2 Text-Xs Font-Bold Text-Indigo-600 BG-Indigo-50 abgerundet-LG Hover:BG-Indigo-100 Übergangsfarben\"\n          >\n            Alle Kataloge anzeigen",
+    "es": "onNavigate('catálogo')}\n             className=\"w-full mt-4 flex items-center justificar-center gap-2 py-2 text-xs font-bold text-indigo-600 bg-indigo-50 rounded-lg hover:bg-indigo-100 colores de transición\"\n          >\n            Ver todo el catálogo",
+    "ar": "onNavigate('الكتالوج')}\n             className = \"w-full mt-4 العناصر المرنة-center justify-center الفجوة-2 py-2 text-xs الخط-bold text-indigo-600 bg-indigo-50 rounded-lg hover:bg-indigo-100 انتقال الألوان\"\n          >\n            عرض الكل الكتالوج",
+    "pt": "onNavigate('catálogo')}\n             className = \"w-full mt-4 flex items-center justificar-center gap-2 py-2 text-xs font-bold text-indigo-600 bg-indigo-50 arredondado-lg hover:bg-indigo-100 cores de transição\"\n          >\n            Ver todo o catálogo",
+    "fr": "onNavigate('catalogue')}\n             className=\"w-full mt-4 flex items-center justification-center gap-2 py-2 text-xs font-bold text-indigo-600 bg-indigo-50 arrondi-lg survol : bg-indigo-100 couleurs de transition\"\n          >\n            Voir tout le catalogue",
+    "it": "onNavigate('catalogo')}\n             className=\"w-full mt-4 articoli flessibili-centro giustifica-centro gap-2 py-2 testo-xs carattere-testo in grassetto-indigo-600 bg-indigo-50 arrotondato-lg hover:bg-indigo-100 colori di transizione\"\n          >\n            Visualizza tutto il catalogo"
+  },
+  "Live Alert Feed": {
+    "pt": "Feed de alerta ao vivo",
+    "es": "Feed de alerta en vivo",
+    "de": "Live-Alarm-Feed",
+    "ar": "تغذية التنبيه المباشر",
+    "fr": "Flux d'alerte en direct",
+    "it": "Feed di avvisi in tempo reale"
+  },
+  "onNavigate('alerts')}\n             className=\"text-xs font-medium text-slate-500 hover:text-indigo-600\"\n          >\n            Manage Alerts": {
+    "de": "onNavigate('alerts')}\n             className=\"text-xs font-medium text-slate-500 hover:text-indigo-600\"\n          >\n            Warnungen verwalten",
+    "es": "onNavigate('alertas')}\n             className=\"text-xs font-medium text-slate-500 hover:text-indigo-600\"\n          >\n            Administrar alertas",
+    "pt": "onNavigate('alertas')}\n             className=\"text-xs font-medium text-slate-500 hover:text-indigo-600\"\n          >\n            Gerenciar alertas",
+    "ar": "onNavigate('التنبيهات')}\n             className = \"text-xs الخط المتوسط text-slate-500 hover:text-indigo-600\"\n          >\n            إدارة التنبيهات",
+    "fr": "onNavigate('alertes')}\n             className=\"text-xs font-medium text-slate-500 survol :text-indigo-600\"\n          >\n            Gérer les alertes",
+    "it": "onNavigate('avvisi')}\n             className=\"text-xs font-medium text-slate-500 hover:text-indigo-600\"\n          >\n            Gestisci avvisi"
+  },
+  "('dashboard');\n  const [selectedProductId, setSelectedProductId] = useState": {
+    "it": "('pannello di controllo');\n  const [selectedProductId, setSelectedProductId] = useState",
+    "es": "('panel');\n  const [IDProducto seleccionado, setIdProductoSelected] = useState",
+    "de": "('Armaturenbrett');\n  const [selectedProductId, setSelectedProductId] = useState",
+    "ar": "(\"لوحة القيادة\")؛\n  const [selectedProductId, setSelectedProductId] = useState",
+    "fr": "('tableau de bord');\n  const [selectedProductId, setSelectedProductId] = useState",
+    "pt": "('painel');\n  const [selectedProductId, setSelectedProductId] = useState"
+  },
+  "Inventory & Stock Mgt": {
+    "pt": "Estoque e gerenciamento de estoque",
+    "es": "Gestión de inventario y existencias",
+    "fr": "Inventaire et gestion des stocks",
+    "ar": "إدارة المخزون والمخزون",
+    "de": "Bestands- und Lagerverwaltung",
+    "it": "Gestione inventario e scorte"
+  },
+  "Real-time control over products, movements, and warehouses.": {
+    "es": "Control en tiempo real sobre productos, movimientos y almacenes.",
+    "de": "Echtzeitkontrolle über Produkte, Bewegungen und Lager.",
+    "ar": "السيطرة في الوقت الحقيقي على المنتجات والحركات والمستودعات.",
+    "fr": "Contrôle en temps réel des produits, des mouvements et des entrepôts.",
+    "it": "Controllo in tempo reale su prodotti, movimenti e magazzini.",
+    "pt": "Controle em tempo real sobre produtos, movimentos e armazéns."
+  },
+  "Scan Barcode": {
+    "fr": "Scanner le code-barres",
+    "ar": "مسح الباركود",
+    "es": "Escanear código de barras",
+    "it": "Scansiona il codice a barre",
+    "de": "Barcode scannen",
+    "pt": "Digitalizar código de barras"
+  },
+  "+ Quick Action": {
+    "ar": "+ العمل السريع",
+    "de": "+ Schnelle Aktion",
+    "es": "+ Acción rápida",
+    "fr": "+ Action rapide",
+    "pt": "+ Ação Rápida",
+    "it": "+ Azione rapida"
+  },
+  "Stock Movements Log": {
+    "de": "Lagerbewegungsprotokoll",
+    "es": "Registro de movimientos de existencias",
+    "ar": "سجل حركات الأسهم",
+    "fr": "Journal des mouvements de stock",
+    "pt": "Registro de movimentos de estoque",
+    "it": "Registro dei movimenti di magazzino"
+  },
+  "Audit trail of all inventory changes across all locations.": {
+    "pt": "Trilha de auditoria de todas as alterações de inventário em todos os locais.",
+    "ar": "مسار التدقيق لجميع تغييرات المخزون في جميع المواقع.",
+    "de": "Audit-Trail aller Bestandsänderungen an allen Standorten.",
+    "es": "Seguimiento de auditoría de todos los cambios de inventario en todas las ubicaciones.",
+    "it": "Traccia di controllo di tutte le modifiche all'inventario in tutte le sedi.",
+    "fr": "Piste d'audit de toutes les modifications d'inventaire sur tous les sites."
+  },
+  "Date / Time": {
+    "it": "Data/Ora",
+    "ar": "التاريخ / الوقت",
+    "de": "Datum/Uhrzeit",
+    "es": "Fecha / Hora",
+    "pt": "Data/Hora",
+    "fr": "Date/Heure"
+  },
+  "Movement Type": {
+    "es": "Tipo de movimiento",
+    "fr": "Type de mouvement",
+    "ar": "نوع الحركة",
+    "it": "Tipo di movimento",
+    "pt": "Tipo de movimento",
+    "de": "Bewegungsart"
+  },
+  "Product": {
+    "de": "Produkt",
+    "pt": "Produto",
+    "fr": "Produit",
+    "it": "Prodotto",
+    "ar": "منتج",
+    "es": "Producto"
+  },
+  "Reference / Location": {
+    "ar": "المرجع / الموقع",
+    "es": "Referencia / Ubicación",
+    "fr": "Référence / Localisation",
+    "it": "Riferimento/Posizione",
+    "pt": "Referência / Localização",
+    "de": "Referenz / Standort"
+  },
+  "Quantity": {
+    "it": "Quantità",
+    "pt": "Quantidade",
+    "es": "Cantidad",
+    "ar": "كمية",
+    "de": "Menge",
+    "fr": "Quantité"
+  },
+  "User": {
+    "pt": "Usuário",
+    "ar": "مستخدم",
+    "fr": "Utilisateur",
+    "de": "Benutzer",
+    "es": "Usuario",
+    "it": "Utente"
+  },
+  "Showing latest 5 movements": {
+    "ar": "عرض أحدث 5 حركات",
+    "fr": "Affichage des 5 derniers mouvements",
+    "es": "Mostrando los últimos 5 movimientos",
+    "de": "Zeigt die letzten 5 Bewegungen",
+    "pt": "Mostrando os últimos 5 movimentos",
+    "it": "Mostra gli ultimi 5 movimenti"
+  },
+  "Search reference, SKU...": {
+    "de": "Referenz, SKU suchen...",
+    "ar": "مرجع البحث، SKU...",
+    "it": "Cerca riferimento, SKU...",
+    "fr": "Rechercher une référence, un SKU...",
+    "es": "Buscar referencia, SKU...",
+    "pt": "Referência de pesquisa, SKU..."
+  },
+  "0 && product.stock": {
+    "de": "0 && Produktbestand",
+    "ar": "0 && المنتج.المخزون",
+    "it": "0 && prodotto.stock",
+    "fr": "0 && produit.stock",
+    "es": "0 && producto.stock",
+    "pt": "0 && produto.estoque"
+  },
+  "Out of Stock": {
+    "fr": "En rupture de stock",
+    "es": "Agotado",
+    "it": "Esaurito",
+    "de": "Ausverkauft",
+    "ar": "إنتهى من المخزن",
+    "pt": "Fora de estoque"
+  },
+  "Low Stock": {
+    "fr": "Stock faible",
+    "ar": "مخزون منخفض",
+    "es": "Existencias bajas",
+    "de": "Geringer Lagerbestand",
+    "it": "Scorte basse",
+    "pt": "Estoque baixo"
+  },
+  "Adjust Stock": {
+    "de": "Lagerbestand anpassen",
+    "it": "Regola le scorte",
+    "ar": "ضبط المخزون",
+    "fr": "Ajuster le stock",
+    "es": "Ajustar existencias",
+    "pt": "Ajustar estoque"
+  },
+  "Inventory Status": {
+    "ar": "حالة المخزون",
+    "it": "Stato dell'inventario",
+    "de": "Bestandsstatus",
+    "es": "Estado del inventario",
+    "fr": "Statut de l'inventaire",
+    "pt": "Status do inventário"
+  },
+  "units available": {
+    "ar": "الوحدات المتاحة",
+    "it": "unità disponibili",
+    "de": "Einheiten verfügbar",
+    "es": "unidades disponibles",
+    "fr": "unités disponibles",
+    "pt": "unidades disponíveis"
+  },
+  "Capacity: 3,000": {
+    "de": "Kapazität: 3.000",
+    "ar": "السعة: 3,000",
+    "es": "Capacidad: 3.000",
+    "pt": "Capacidade: 3.000",
+    "fr": "Capacité : 3 000",
+    "it": "Capacità: 3.000"
+  },
+  "Target": {
+    "fr": "Cible",
+    "pt": "Alvo",
+    "de": "Ziel",
+    "es": "Objetivo",
+    "ar": "هدف",
+    "it": "Bersaglio"
+  },
+  "Unit Cost": {
+    "ar": "تكلفة الوحدة",
+    "es": "Costo unitario",
+    "pt": "Custo Unitário",
+    "fr": "Coût unitaire",
+    "de": "Stückkosten",
+    "it": "Costo unitario"
+  },
+  "Recent Movements": {
+    "ar": "الحركات الأخيرة",
+    "es": "Movimientos Recientes",
+    "fr": "Mouvements récents",
+    "pt": "Movimentos Recentes",
+    "de": "Aktuelle Bewegungen",
+    "it": "Movimenti recenti"
+  },
+  "View All": {
+    "ar": "عرض الكل",
+    "de": "Alle anzeigen",
+    "it": "Visualizza tutto",
+    "fr": "Tout afficher",
+    "pt": "Ver tudo",
+    "es": "Ver todo"
+  },
+  "30-Day Trend": {
+    "es": "Tendencia de 30 días",
+    "ar": "اتجاه 30 يومًا",
+    "de": "30-Tage-Trend",
+    "fr": "Tendance sur 30 jours",
+    "pt": "Tendência de 30 dias",
+    "it": "Tendenza di 30 giorni"
+  },
+  "Current Rate": {
+    "fr": "Tarif actuel",
+    "de": "Aktueller Kurs",
+    "es": "Tarifa actual",
+    "ar": "المعدل الحالي",
+    "pt": "Taxa Atual",
+    "it": "Tasso attuale"
+  },
+  "~15/day avg": {
+    "it": "~15/giorno in media",
+    "ar": "~15/يوم متوسط",
+    "fr": "~15/jour en moyenne",
+    "es": "~15/día promedio",
+    "pt": "~15/dia em média"
+  },
+  "Proj. Empty": {
+    "ar": "مشروع. فارغ",
+    "it": "Prog. Vuoto",
+    "pt": "Projeto. Vazio",
+    "fr": "Projet. Vide",
+    "es": "Proy. Vacío",
+    "de": "Proj. Leer"
+  },
+  "in 2wks": {
+    "pt": "em 2 semanas",
+    "ar": "في 2 أسابيع",
+    "fr": "dans 2 semaines",
+    "es": "en 2 semanas",
+    "it": "in 2 settimane"
+  },
+  "Attached Documents": {
+    "ar": "المستندات المرفقة",
+    "fr": "Documents joints",
+    "es": "Documentos adjuntos",
+    "it": "Documenti allegati",
+    "de": "Angehängte Dokumente",
+    "pt": "Documentos anexados"
+  },
+  "+ Upload Document": {
+    "es": "+ Subir documento",
+    "fr": "+ Télécharger un document",
+    "ar": "+ تحميل الوثيقة",
+    "it": "+ Carica documento",
+    "de": "+ Dokument hochladen",
+    "pt": "+ Carregar documento"
+  },
+  "Stock Valuation": {
+    "ar": "تقييم الأسهم",
+    "es": "Valoración de acciones",
+    "fr": "Valorisation des stocks",
+    "it": "Valutazione delle azioni",
+    "de": "Aktienbewertung",
+    "pt": "Avaliação de ações"
+  },
+  "Financial overview of inventory assets.": {
+    "ar": "نظرة مالية على أصول المخزون.",
+    "fr": "Aperçu financier des actifs en stock.",
+    "it": "Panoramica finanziaria delle risorse di inventario.",
+    "es": "Resumen financiero de los activos de inventario.",
+    "pt": "Visão geral financeira dos ativos de estoque.",
+    "de": "Finanzielle Übersicht über das Inventarvermögen."
+  },
+  "Accounting Sync": {
+    "fr": "Synchronisation comptable",
+    "pt": "Sincronização Contábil",
+    "ar": "مزامنة المحاسبة",
+    "es": "Sincronización de contabilidad",
+    "it": "Sincronizzazione contabile",
+    "de": "Buchhaltungssynchronisierung"
+  },
+  "Total Stock Value": {
+    "fr": "Valeur totale du stock",
+    "pt": "Valor total do estoque",
+    "ar": "إجمالي قيمة المخزون",
+    "es": "Valor total de las acciones",
+    "it": "Valore totale delle azioni",
+    "de": "Gesamtbestandswert"
+  },
+  "+2.4% vs last period": {
+    "fr": "+2,4% vs dernière période",
+    "ar": "+2.4% مقارنة بالفترة الماضية",
+    "pt": "+2,4% em relação ao último período",
+    "es": "+2,4% respecto al último período",
+    "it": "+2,4% rispetto allo scorso periodo",
+    "de": "+2,4 % gegenüber der letzten Periode"
+  },
+  "Valuation Method": {
+    "ar": "طريقة التقييم",
+    "es": "Método de valoración",
+    "fr": "Méthode d'évaluation",
+    "pt": "Método de avaliação",
+    "de": "Bewertungsmethode",
+    "it": "Metodo di valutazione"
+  },
+  "FIFO (First In, First Out)": {
+    "ar": "FIFO (يدخل أولاً، يخرج أولاً)",
+    "de": "FIFO (First In, First Out)",
+    "pt": "FIFO (primeiro a entrar, primeiro a sair)",
+    "es": "FIFO (primero en entrar, primero en salir)",
+    "it": "FIFO (primo entrato, primo uscito)",
+    "fr": "FIFO (premier entré, premier sorti)"
+  },
+  "Change Method": {
+    "ar": "طريقة التغيير",
+    "pt": "Método de mudança",
+    "de": "Methode ändern",
+    "it": "Cambia metodo",
+    "es": "Cambiar método",
+    "fr": "Changer de méthode"
+  },
+  "Value by Category": {
+    "ar": "القيمة حسب الفئة",
+    "pt": "Valor por categoria",
+    "de": "Wert nach Kategorie",
+    "it": "Valore per categoria",
+    "es": "Valor por categoría",
+    "fr": "Valeur par catégorie"
+  },
+  "Controllers": {
+    "pt": "Controladores",
+    "it": "Controllori",
+    "ar": "وحدات التحكم",
+    "de": "Controller",
+    "fr": "Contrôleurs",
+    "es": "Controladores"
+  },
+  "Motors": {
+    "es": "motores",
+    "pt": "Motores",
+    "it": "Motori",
+    "de": "Motoren",
+    "ar": "المحركات",
+    "fr": "Moteurs"
+  },
+  "Detailed valuation ledger goes here": {
+    "ar": "دفتر الأستاذ التقييم التفصيلي يذهب هنا",
+    "fr": "Le registre d'évaluation détaillé va ici",
+    "de": "Hier finden Sie das detaillierte Bewertungsbuch",
+    "es": "El libro de valoración detallado va aquí",
+    "pt": "O livro de avaliação detalhado vai aqui",
+    "it": "Il registro dettagliato delle valutazioni va qui"
+  },
+  "Warehouses & Locations": {
+    "ar": "المستودعات والمواقع",
+    "es": "Almacenes y ubicaciones",
+    "fr": "Entrepôts et emplacements",
+    "de": "Lager und Standorte",
+    "it": "Magazzini e sedi",
+    "pt": "Armazéns e Locais"
+  },
+  "Manage physical spaces, zones, and storage bins.": {
+    "es": "Gestionar espacios físicos, zonas y contenedores de almacenamiento.",
+    "ar": "إدارة المساحات المادية والمناطق وصناديق التخزين.",
+    "it": "Gestisci spazi fisici, zone e contenitori di stoccaggio.",
+    "pt": "Gerencie espaços físicos, zonas e posições de armazenamento.",
+    "de": "Verwalten Sie physische Räume, Zonen und Lagerplätze.",
+    "fr": "Gérez les espaces physiques, les zones et les bacs de stockage."
+  },
+  "Warehouse A - Main Tech": {
+    "ar": "المستودع أ - التقنية الرئيسية",
+    "es": "Almacén A - Tecnología principal",
+    "fr": "Entrepôt A - Technologie principale",
+    "de": "Lager A – Haupttech",
+    "it": "Magazzino A - Tecn. Principale",
+    "pt": "Armazém A - Tecnologia Principal"
+  },
+  "Warehouse B - Cables": {
+    "ar": "المستودع ب - الكابلات",
+    "es": "Almacén B - Cables",
+    "fr": "Entrepôt B - Câbles",
+    "de": "Lager B – Kabel",
+    "it": "Magazzino B - Cavi",
+    "pt": "Armazém B - Cabos"
+  },
+  "Warehouse C - Heavy": {
+    "ar": "المستودع ج - ثقيل",
+    "fr": "Entrepôt C - Lourd",
+    "de": "Lager C – Schwer",
+    "pt": "Armazém C - Pesado",
+    "es": "Almacén C - Pesado",
+    "it": "Magazzino C - Pesante"
+  },
+  "New Location": {
+    "de": "Neuer Standort",
+    "ar": "الموقع الجديد",
+    "fr": "Nouvel emplacement",
+    "pt": "Novo local",
+    "es": "Nueva ubicación",
+    "it": "Nuova posizione"
+  },
+  "Structure": {
+    "pt": "Estrutura",
+    "fr": "Structure",
+    "it": "Struttura",
+    "es": "Estructura",
+    "ar": "بناء",
+    "de": "Struktur"
+  },
+  "Zone 1 - Electronics": {
+    "fr": "Zone 1 - Électronique",
+    "ar": "المنطقة 1 - الالكترونيات",
+    "es": "Zona 1 - Electrónica",
+    "de": "Zone 1 – Elektronik",
+    "pt": "Zona 1 - Eletrônica",
+    "it": "Zona 1 - Elettronica"
+  },
+  "Aisle 1 (High Value)": {
+    "de": "Gang 1 (hoher Wert)",
+    "ar": "الممر 1 (قيمة عالية)",
+    "es": "Pasillo 1 (valor alto)",
+    "pt": "Corredor 1 (alto valor)",
+    "fr": "Allée 1 (valeur élevée)",
+    "it": "Corridoio 1 (alto valore)"
+  },
+  "Aisle 2 (Sensors)": {
+    "de": "Gang 2 (Sensoren)",
+    "ar": "الممر 2 (أجهزة الاستشعار)",
+    "es": "Pasillo 2 (Sensores)",
+    "pt": "Corredor 2 (Sensores)",
+    "fr": "Allée 2 (Capteurs)",
+    "it": "Corridoio 2 (Sensori)"
+  },
+  "Aisle 3 (Actuators)": {
+    "ar": "الممر 3 (المحركات)",
+    "de": "Gang 3 (Aktoren)",
+    "es": "Pasillo 3 (Actuadores)",
+    "pt": "Corredor 3 (Atuadores)",
+    "fr": "Allée 3 (Actionneurs)",
+    "it": "Corridoio 3 (Attuatori)"
+  },
+  "Zone 2 - Bulk Items": {
+    "fr": "Zone 2 - Articles en vrac",
+    "pt": "Zona 2 - Itens a granel",
+    "de": "Zone 2 – Massenartikel",
+    "ar": "المنطقة 2 - العناصر السائبة",
+    "es": "Zona 2: artículos a granel",
+    "it": "Zona 2 - Articoli sfusi"
+  },
+  "Zone 3 - Packaging": {
+    "es": "Zona 3 - Embalaje",
+    "de": "Zone 3 – Verpackung",
+    "ar": "المنطقة 3 - التعبئة والتغليف",
+    "fr": "Zone 3 - Emballage",
+    "pt": "Zona 3 - Embalagem",
+    "it": "Zona 3 - Imballaggio"
+  },
+  "Location Details": {
+    "de": "Standortdetails",
+    "pt": "Detalhes do local",
+    "es": "Detalles de la ubicación",
+    "ar": "تفاصيل الموقع",
+    "it": "Dettagli sulla posizione",
+    "fr": "Détails de l'emplacement"
+  },
+  "Current Selection": {
+    "ar": "الاختيار الحالي",
+    "fr": "Sélection actuelle",
+    "es": "Selección actual",
+    "de": "Aktuelle Auswahl",
+    "pt": "Seleção Atual",
+    "it": "Selezione corrente"
+  },
+  "Zone 1 / Aisle 3": {
+    "ar": "المنطقة 1 / الممر 3",
+    "es": "Zona 1 / Pasillo 3",
+    "pt": "Zona 1 / Corredor 3",
+    "fr": "Zone 1 / Allée 3",
+    "it": "Zona 1/Corridoio 3",
+    "de": "Zone 1 / Gang 3"
+  },
+  "Utilization": {
+    "ar": "استخدام",
+    "pt": "Utilização",
+    "es": "Utilización",
+    "it": "Utilizzo",
+    "de": "Verwendung",
+    "fr": "Utilisation"
+  },
+  "SKUs Stored": {
+    "ar": "وحدات SKU المخزنة",
+    "es": "SKU almacenados",
+    "pt": "SKUs armazenados",
+    "fr": "SKU stockés",
+    "it": "SKU archiviati",
+    "de": "Gespeicherte SKUs"
+  },
+  "Manage Bins": {
+    "ar": "إدارة الصناديق",
+    "de": "Behälter verwalten",
+    "pt": "Gerenciar caixas",
+    "es": "Administrar contenedores",
+    "it": "Gestisci i contenitori",
+    "fr": "Gérer les bacs"
+  },
+  "Empty": {
+    "pt": "Vazio",
+    "it": "Vuoto",
+    "ar": "فارغ",
+    "de": "Leer",
+    "es": "Vacío",
+    "fr": "Vide"
+  },
+  "Medium": {
+    "fr": "Moyen",
+    "ar": "واسطة",
+    "de": "Medium",
+    "es": "Medio",
+    "it": "Medio",
+    "pt": "Médio"
+  },
+  "Full": {
+    "ar": "ممتلىء",
+    "es": "Lleno",
+    "fr": "Complet",
+    "pt": "Completo",
+    "it": "Pieno",
+    "de": "Voll"
+  },
+  "Billing & Subscription": {
+    "fr": "Facturation et abonnement",
+    "es": "Facturación y suscripción",
+    "ar": "الفواتير والاشتراك",
+    "de": "Abrechnung und Abonnement",
+    "pt": "Faturamento e assinatura",
+    "it": "Fatturazione e abbonamento"
+  },
+  "Manage your plan, billing details, and invoices.": {
+    "ar": "إدارة خطتك وتفاصيل الفواتير والفواتير.",
+    "es": "Administre su plan, detalles de facturación y facturas.",
+    "it": "Gestisci il tuo piano, i dettagli di fatturazione e le fatture.",
+    "pt": "Gerencie seu plano, detalhes de cobrança e faturas.",
+    "fr": "Gérez votre forfait, vos détails de facturation et vos factures.",
+    "de": "Verwalten Sie Ihren Plan, Ihre Rechnungsdetails und Rechnungen."
+  },
+  "Professional Plan": {
+    "ar": "الخطة المهنية",
+    "fr": "Forfait Professionnel",
+    "es": "Plan Profesional",
+    "de": "Professioneller Plan",
+    "pt": "Plano Profissional",
+    "it": "Piano professionale"
+  },
+  "Active": {
+    "es": "Activo",
+    "ar": "نشيط",
+    "fr": "Actif",
+    "pt": "Ativo",
+    "de": "Aktiv",
+    "it": "Attivo"
+  },
+  "Billed annually ($1,188.00 / year)": {
+    "es": "Facturado anualmente ($1,188.00 / año)",
+    "ar": "يتم إصدار الفاتورة سنويًا (1,188.00 دولارًا سنويًا)",
+    "pt": "Faturado anualmente (US$ 1.188,00/ano)",
+    "de": "Jährliche Abrechnung (1.188,00 $/Jahr)",
+    "fr": "Facturé annuellement (1 188,00 $/an)",
+    "it": "Fatturazione annuale ($ 1.188,00 / anno)"
+  },
+  "Active Users": {
+    "fr": "Utilisateurs actifs",
+    "ar": "المستخدمون النشطون",
+    "de": "Aktive Benutzer",
+    "pt": "Usuários ativos",
+    "es": "Usuarios activos",
+    "it": "Utenti attivi"
+  },
+  "GB": {
+    "es": "ES",
+    "fr": "FR",
+    "ar": "غيغابايت",
+    "pt": "GB",
+    "de": "GB",
+    "it": "GB"
+  },
+  "Storage Used (50GB limit)": {
+    "es": "Almacenamiento utilizado (límite de 50 GB)",
+    "pt": "Armazenamento usado (limite de 50 GB)",
+    "ar": "سعة التخزين المستخدمة (حد 50 جيجابايت)",
+    "fr": "Stockage utilisé (limite de 50 Go)",
+    "it": "Spazio di archiviazione utilizzato (limite di 50 GB)",
+    "de": "Verwendeter Speicher (Limit 50 GB)"
+  },
+  "Next Billing Date": {
+    "ar": "تاريخ الفاتورة القادم",
+    "es": "Próxima fecha de facturación",
+    "it": "Prossima data di fatturazione",
+    "de": "Nächstes Rechnungsdatum",
+    "fr": "Prochaine date de facturation",
+    "pt": "Próxima data de cobrança"
+  },
+  "Oct 14, 2026": {
+    "es": "14 de octubre de 2026",
+    "it": "14 ottobre 2026",
+    "ar": "14 أكتوبر 2026",
+    "de": "14. Okt. 2026",
+    "fr": "14 octobre 2026",
+    "pt": "14 de outubro de 2026"
+  },
+  "Upgrade Plan": {
+    "es": "Plan de actualización",
+    "ar": "خطة الترقية",
+    "de": "Upgrade-Plan",
+    "it": "Piano di aggiornamento",
+    "fr": "Plan de mise à niveau",
+    "pt": "Plano de atualização"
+  },
+  "Payment Method": {
+    "de": "Zahlungsmethode",
+    "ar": "طريقة الدفع",
+    "pt": "Método de pagamento",
+    "fr": "Mode de paiement",
+    "es": "Método de pago",
+    "it": "Metodo di pagamento"
+  },
+  "VISA": {
+    "es": "VISA",
+    "it": "VISA",
+    "de": "VISUM",
+    "fr": "VISA",
+    "pt": "VISA",
+    "ar": "فيزا"
+  },
+  "Expires 12/28": {
+    "ar": "تنتهي في 28/12",
+    "es": "Vence el 28/12",
+    "fr": "Expire le 28/12",
+    "it": "Scade il 28/12",
+    "pt": "Expira em 28/12",
+    "de": "Läuft am 28.12. ab"
+  },
+  "Update Payment Info": {
+    "ar": "تحديث معلومات الدفع",
+    "it": "Aggiorna informazioni di pagamento",
+    "fr": "Mettre à jour les informations de paiement",
+    "es": "Actualizar información de pago",
+    "pt": "Atualizar informações de pagamento",
+    "de": "Zahlungsinformationen aktualisieren"
+  },
+  "Billing History": {
+    "fr": "Historique de facturation",
+    "de": "Abrechnungsverlauf",
+    "it": "Cronologia della fatturazione",
+    "pt": "Histórico de cobrança",
+    "es": "Historial de facturación",
+    "ar": "تاريخ الفواتير"
+  },
+  "Amount": {
+    "pt": "Quantia",
+    "it": "Quantità",
+    "de": "Menge",
+    "fr": "Montant",
+    "ar": "كمية",
+    "es": "Cantidad"
+  },
+  "Invoice": {
+    "ar": "فاتورة",
+    "it": "Fattura",
+    "pt": "Fatura",
+    "es": "Factura",
+    "de": "Rechnung",
+    "fr": "Facture"
+  },
+  "General": {
+    "ar": "عام",
+    "fr": "Général",
+    "it": "Generale",
+    "pt": "Em geral",
+    "de": "Allgemein",
+    "es": "General"
+  },
+  "Basic information about your company.": {
+    "es": "Información básica sobre su empresa.",
+    "fr": "Informations de base sur votre entreprise.",
+    "de": "Grundlegende Informationen zu Ihrem Unternehmen.",
+    "ar": "معلومات أساسية عن شركتك.",
+    "it": "Informazioni di base sulla tua azienda.",
+    "pt": "Informações básicas sobre sua empresa."
+  },
+  "Upload": {
+    "ar": "رفع",
+    "fr": "Télécharger",
+    "es": "Subir",
+    "it": "Caricamento",
+    "de": "Hochladen",
+    "pt": "Carregar"
+  },
+  "Logo": {
+    "ar": "الشعار",
+    "de": "Logo",
+    "it": "Logo",
+    "es": "Logo",
+    "fr": "Logo",
+    "pt": "Logotipo"
+  },
+  "Company Name": {
+    "fr": "Nom de l'entreprise",
+    "pt": "nome da empresa",
+    "de": "Name der Firma",
+    "ar": "اسم الشركة",
+    "it": "Nome dell'azienda",
+    "es": "nombre de empresa"
+  },
+  "Default Currency": {
+    "es": "Moneda predeterminada",
+    "it": "Valuta predefinita",
+    "fr": "Devise par défaut",
+    "pt": "Moeda padrão",
+    "de": "Standardwährung",
+    "ar": "العملة الافتراضية"
+  },
+  "USD ($)": {
+    "fr": "USD ($)",
+    "it": "USD ($)",
+    "es": "USD ($)",
+    "ar": "دولار أمريكي ($)",
+    "pt": "USD ($)",
+    "de": "USD ($)"
+  },
+  "EUR (€)": {
+    "fr": "EUR (€)",
+    "ar": "يورو (€)",
+    "es": "euros (€)",
+    "de": "EUR (€)",
+    "it": "EUR (€)",
+    "pt": "EUR (€)"
+  },
+  "GBP (£)": {
+    "es": "GBP (£)",
+    "fr": "GBP (£)",
+    "de": "GBP (£)",
+    "it": "GBP (£)",
+    "ar": "الجنيه الاسترليني (جنيه استرليني)",
+    "pt": "GBP (£)"
+  },
+  "JPY (¥)": {
+    "fr": "JPY (¥)",
+    "es": "JPY (¥)",
+    "ar": "ين ياباني (¥)",
+    "it": "JPY (¥)",
+    "de": "JPY (¥)",
+    "pt": "JPY (¥)"
+  },
+  "Fiscal Year Start": {
+    "fr": "Début de l’année fiscale",
+    "ar": "بداية السنة المالية",
+    "it": "Inizio anno fiscale",
+    "es": "Inicio del año fiscal",
+    "de": "Beginn des Geschäftsjahres",
+    "pt": "Início do ano fiscal"
+  },
+  "January": {
+    "de": "Januar",
+    "ar": "يناير",
+    "es": "Enero",
+    "fr": "Janvier",
+    "pt": "Janeiro",
+    "it": "Gennaio"
+  },
+  "April": {
+    "fr": "Avril",
+    "de": "April",
+    "it": "aprile",
+    "ar": "أبريل",
+    "pt": "abril",
+    "es": "Abril"
+  },
+  "July": {
+    "fr": "Juillet",
+    "it": "Luglio",
+    "de": "Juli",
+    "ar": "يوليو",
+    "es": "Julio",
+    "pt": "Julho"
+  },
+  "October": {
+    "it": "ottobre",
+    "fr": "Octobre",
+    "pt": "outubro",
+    "es": "Octubre",
+    "ar": "أكتوبر",
+    "de": "Oktober"
+  },
+  "Timezone": {
+    "ar": "المنطقة الزمنية",
+    "pt": "Fuso horário",
+    "de": "Zeitzone",
+    "fr": "Fuseau horaire",
+    "es": "Zona horaria",
+    "it": "Fuso orario"
+  },
+  "UTC (Coordinated Universal Time)": {
+    "ar": "UTC (التوقيت العالمي المنسق)",
+    "fr": "UTC (Temps universel coordonné)",
+    "es": "UTC (Tiempo Universal Coordinado)",
+    "de": "UTC (koordinierte Weltzeit)",
+    "it": "UTC (Tempo Coordinato Universale)",
+    "pt": "UTC (Tempo Universal Coordenado)"
+  },
+  "EST (Eastern Standard Time)": {
+    "de": "EST (Eastern Standard Time)",
+    "ar": "بتوقيت شرق الولايات المتحدة (التوقيت الرسمي الشرقي)",
+    "it": "EST (ora solare orientale)",
+    "fr": "EST (heure normale de l'Est)",
+    "es": "EST (hora estándar del este)",
+    "pt": "EST (Horário Padrão do Leste)"
+  },
+  "PST (Pacific Standard Time)": {
+    "de": "PST (Pazifik-Standardzeit)",
+    "ar": "توقيت المحيط الهادئ (توقيت المحيط الهادئ)",
+    "it": "PST (ora solare del Pacifico)",
+    "es": "PST (hora estándar del Pacífico)",
+    "fr": "PST (heure normale du Pacifique)",
+    "pt": "PST (Horário Padrão do Pacífico)"
+  },
+  "CET (Central European Time)": {
+    "de": "MEZ (Mitteleuropäische Zeit)",
+    "ar": "CET (توقيت وسط أوروبا)",
+    "it": "CET (ora dell'Europa centrale)",
+    "fr": "CET (heure d'Europe centrale)",
+    "es": "CET (hora central europea)",
+    "pt": "CET (Horário da Europa Central)"
+  },
+  "Integrations": {
+    "de": "Integrationen",
+    "fr": "Intégrations",
+    "ar": "التكامل",
+    "es": "Integraciones",
+    "it": "Integrazioni",
+    "pt": "Integrações"
+  },
+  "Connect your workspace with third-party tools.": {
+    "fr": "Connectez votre espace de travail avec des outils tiers.",
+    "ar": "قم بتوصيل مساحة العمل الخاصة بك بأدوات الطرف الثالث.",
+    "es": "Conecte su espacio de trabajo con herramientas de terceros.",
+    "it": "Connetti il ​​tuo spazio di lavoro con strumenti di terze parti.",
+    "de": "Verbinden Sie Ihren Arbeitsbereich mit Tools von Drittanbietern.",
+    "pt": "Conecte seu espaço de trabalho com ferramentas de terceiros."
+  },
+  "Connected": {
+    "es": "Conectado",
+    "ar": "متصل",
+    "it": "Collegato",
+    "de": "Verbunden",
+    "pt": "Conectado",
+    "fr": "Connecté"
+  },
+  "Developer API": {
+    "fr": "API de développeur",
+    "ar": "واجهة برمجة تطبيقات المطور",
+    "es": "API de desarrollador",
+    "de": "Entwickler-API",
+    "it": "API per sviluppatori",
+    "pt": "API do desenvolvedor"
+  },
+  "Build custom integrations with our REST API.": {
+    "es": "Cree integraciones personalizadas con nuestra API REST.",
+    "fr": "Créez des intégrations personnalisées avec notre API REST.",
+    "it": "Crea integrazioni personalizzate con la nostra API REST.",
+    "ar": "قم ببناء عمليات تكامل مخصصة مع REST API الخاص بنا.",
+    "de": "Erstellen Sie benutzerdefinierte Integrationen mit unserer REST-API.",
+    "pt": "Crie integrações personalizadas com nossa API REST."
+  },
+  "Generate Token": {
+    "de": "Token generieren",
+    "it": "Genera token",
+    "es": "Generar ficha",
+    "fr": "Générer un jeton",
+    "pt": "Gerar token",
+    "ar": "إنشاء رمز مميز"
+  },
+  "Language & Region": {
+    "ar": "اللغة والمنطقة",
+    "pt": "Idioma e região",
+    "it": "Lingua e regione",
+    "es": "Idioma y región",
+    "fr": "Langue et région",
+    "de": "Sprache und Region"
+  },
+  "Manage local formats and system language.": {
+    "pt": "Gerencie formatos locais e idioma do sistema.",
+    "de": "Verwalten Sie lokale Formate und Systemsprache.",
+    "ar": "إدارة التنسيقات المحلية ولغة النظام.",
+    "fr": "Gérez les formats locaux et la langue du système.",
+    "es": "Gestionar formatos locales e idioma del sistema.",
+    "it": "Gestisci i formati locali e la lingua del sistema."
+  },
+  "Interface Language": {
+    "it": "Linguaggio dell'interfaccia",
+    "ar": "لغة الواجهة",
+    "es": "Idioma de la interfaz",
+    "fr": "Langue de l'interface",
+    "de": "Schnittstellensprache",
+    "pt": "Idioma da interface"
+  },
+  "Formatting Defaults": {
+    "it": "Formattazione predefinita",
+    "ar": "افتراضيات التنسيق",
+    "es": "Formato predeterminado",
+    "fr": "Paramètres de formatage par défaut",
+    "de": "Formatierungsvorgaben",
+    "pt": "Padrões de formatação"
+  },
+  "Number Format": {
+    "ar": "تنسيق الرقم",
+    "fr": "Format des nombres",
+    "es": "Formato de número",
+    "it": "Formato numero",
+    "pt": "Formato numérico",
+    "de": "Zahlenformat"
+  },
+  "Date Format": {
+    "fr": "Format des dates",
+    "es": "Formato de fecha",
+    "it": "Formato data",
+    "ar": "تنسيق التاريخ",
+    "pt": "Formato de data",
+    "de": "Datumsformat"
+  },
+  "MM/DD/YYYY": {
+    "pt": "MM/DD/AAAA",
+    "de": "MM/TT/JJJJ",
+    "fr": "MM/JJ/AAAA",
+    "ar": "ش ش/ي ي/س س س س",
+    "es": "DD/MM/AAAA",
+    "it": "MM/GG/AAAA"
+  },
+  "DD/MM/YYYY": {
+    "fr": "JJ/MM/AAAA",
+    "it": "GG/MM/AAAA",
+    "ar": "يوم/شهر/سنة",
+    "es": "DD/MM/AAAA",
+    "pt": "DD/MM/AAAA",
+    "de": "TT/MM/JJJJ"
+  },
+  "YYYY-MM-DD": {
+    "fr": "AAAA-MM-JJ",
+    "de": "JJJJ-MM-TT",
+    "es": "AAAA-MM-DD",
+    "it": "AAAA-MM-GG",
+    "ar": "السنة-الشهر-اليوم",
+    "pt": "AAAA-MM-DD"
+  },
+  "First Day of Week": {
+    "ar": "اليوم الأول من الأسبوع",
+    "de": "Erster Tag der Woche",
+    "it": "Primo giorno della settimana",
+    "fr": "Premier jour de la semaine",
+    "es": "Primer día de la semana",
+    "pt": "Primeiro dia da semana"
+  },
+  "Monday": {
+    "de": "Montag",
+    "es": "Lunes",
+    "ar": "الاثنين",
+    "pt": "Segunda-feira",
+    "fr": "Lundi",
+    "it": "Lunedi"
+  },
+  "Sunday": {
+    "es": "Domingo",
+    "fr": "Dimanche",
+    "ar": "الأحد",
+    "pt": "Domingo",
+    "de": "Sonntag",
+    "it": "Domenica"
+  },
+  "Currency Position": {
+    "ar": "موقف العملة",
+    "fr": "Position monétaire",
+    "de": "Währungsposition",
+    "es": "Posición de moneda",
+    "it": "Posizione valutaria",
+    "pt": "Posição da moeda"
+  },
+  "$ 1,000.00 (Before amount)": {
+    "fr": "1 000,00 $ (Avant montant)",
+    "es": "$ 1,000.00 (Antes monto)",
+    "ar": "1,000.00 دولار (قبل المبلغ)",
+    "it": "$ 1.000,00 (importo prima)",
+    "de": "1.000,00 $ (vorheriger Betrag)",
+    "pt": "$ 1.000,00 (antes do valor)"
+  },
+  "1,000.00 $ (After amount)": {
+    "fr": "1 000,00 $ (Après montant)",
+    "es": "1,000.00 $ (Después del monto)",
+    "ar": "1,000.00 دولار (بعد المبلغ)",
+    "it": "1.000,00 $ (dopo l'importo)",
+    "de": "1.000,00 $ (nach Betrag)",
+    "pt": "1.000,00 $ (após o valor)"
+  },
+  "Notifications": {
+    "de": "Benachrichtigungen",
+    "fr": "Notifications",
+    "ar": "إشعارات",
+    "it": "Notifiche",
+    "pt": "Notificações",
+    "es": "Notificaciones"
+  },
+  "Control how and when you receive system alerts.": {
+    "fr": "Contrôlez comment et quand vous recevez des alertes système.",
+    "ar": "التحكم في كيفية ووقت تلقي تنبيهات النظام.",
+    "pt": "Controle como e quando você recebe alertas do sistema.",
+    "es": "Controle cómo y cuándo recibe las alertas del sistema.",
+    "it": "Controlla come e quando ricevi gli avvisi di sistema.",
+    "de": "Steuern Sie, wie und wann Sie Systemwarnungen erhalten."
+  },
+  "Event": {
+    "ar": "حدث",
+    "it": "Evento",
+    "pt": "Evento",
+    "de": "Ereignis",
+    "es": "Evento",
+    "fr": "Événement"
+  },
+  "In-App": {
+    "es": "En la aplicación",
+    "ar": "داخل التطبيق",
+    "fr": "Dans l'application",
+    "pt": "No aplicativo",
+    "de": "In-App",
+    "it": "Nell'app"
+  },
+  "SMS": {
+    "es": "SMS",
+    "ar": "رسالة قصيرة",
+    "fr": "SMS",
+    "it": "sms",
+    "pt": "SMS",
+    "de": "SMS"
+  },
+  "Security": {
+    "de": "Sicherheit",
+    "ar": "حماية",
+    "fr": "Sécurité",
+    "es": "Seguridad",
+    "pt": "Segurança",
+    "it": "Sicurezza"
+  },
+  "Secure your account and monitor access.": {
+    "ar": "تأمين حسابك ومراقبة الوصول.",
+    "pt": "Proteja sua conta e monitore o acesso.",
+    "es": "Asegure su cuenta y controle el acceso.",
+    "it": "Proteggi il tuo account e monitora gli accessi.",
+    "de": "Sichern Sie Ihr Konto und überwachen Sie den Zugriff.",
+    "fr": "Sécurisez votre compte et surveillez les accès."
+  },
+  "Authentication": {
+    "es": "Autenticación",
+    "de": "Authentifizierung",
+    "fr": "Authentification",
+    "it": "Autenticazione",
+    "pt": "Autenticação",
+    "ar": "المصادقة"
+  },
+  "Password Policy": {
+    "fr": "Politique de mot de passe",
+    "ar": "سياسة كلمة المرور",
+    "es": "Política de contraseñas",
+    "de": "Passwortrichtlinie",
+    "it": "Politica sulla password",
+    "pt": "Política de senha"
+  },
+  "Standard (Min 8 characters)": {
+    "es": "Estándar (mínimo 8 caracteres)",
+    "ar": "قياسي (8 أحرف على الأقل)",
+    "de": "Standard (mindestens 8 Zeichen)",
+    "it": "Standard (minimo 8 caratteri)",
+    "fr": "Standard (8 caractères minimum)",
+    "pt": "Padrão (mín. 8 caracteres)"
+  },
+  "Strong (Min 12 + Symbols + Numbers)": {
+    "es": "Fuerte (Min 12 + Símbolos + Números)",
+    "ar": "قوي (الحد الأدنى 12 + الرموز + الأرقام)",
+    "fr": "Fort (Min 12 + Symboles + Chiffres)",
+    "de": "Stark (mindestens 12 + Symbole + Zahlen)",
+    "pt": "Forte (Mínimo 12 + Símbolos + Números)",
+    "it": "Forte (Min 12 + Simboli + Numeri)"
+  },
+  "Strict (Strong + 90 Day Rotation)": {
+    "ar": "صارم (قوي + 90 يومًا من التناوب)",
+    "es": "Estricto (fuerte + rotación de 90 días)",
+    "fr": "Strict (Fort + Rotation de 90 jours)",
+    "de": "Streng (Stark + 90-Tage-Rotation)",
+    "pt": "Estrito (Forte + Rotação de 90 dias)",
+    "it": "Rigido (rotazione forte + 90 giorni)"
+  },
+  "Two-Factor Authentication (2FA)": {
+    "fr": "Authentification à deux facteurs (2FA)",
+    "it": "Autenticazione a due fattori (2FA)",
+    "pt": "Autenticação de dois fatores (2FA)",
+    "es": "Autenticación de dos factores (2FA)",
+    "ar": "المصادقة الثنائية (2FA)",
+    "de": "Zwei-Faktor-Authentifizierung (2FA)"
+  },
+  "Require an extra step on login.": {
+    "ar": "تتطلب خطوة إضافية عند تسجيل الدخول.",
+    "es": "Requiere un paso adicional al iniciar sesión.",
+    "fr": "Nécessite une étape supplémentaire lors de la connexion.",
+    "de": "Erfordert einen zusätzlichen Schritt bei der Anmeldung.",
+    "pt": "Exige uma etapa extra no login.",
+    "it": "Richiedi un passaggio aggiuntivo all'accesso."
+  },
+  "Active Sessions": {
+    "ar": "الجلسات النشطة",
+    "it": "Sessioni attive",
+    "es": "Sesiones activas",
+    "fr": "Séances actives",
+    "de": "Aktive Sitzungen",
+    "pt": "Sessões ativas"
+  },
+  "Mac OS - Chrome (Current Session)": {
+    "fr": "Mac OS - Chrome (session en cours)",
+    "es": "Mac OS - Chrome (sesión actual)",
+    "ar": "نظام التشغيل Mac OS - Chrome (الجلسة الحالية)",
+    "de": "Mac OS – Chrome (Aktuelle Sitzung)",
+    "pt": "Mac OS - Chrome (sessão atual)",
+    "it": "Sistema operativo Mac - Chrome (sessione corrente)"
+  },
+  "London, UK • IP: 192.168.1.1": {
+    "fr": "Londres, Royaume-Uni • IP : 192.168.1.1",
+    "es": "Londres, Reino Unido • IP: 192.168.1.1",
+    "ar": "لندن، المملكة المتحدة • IP: 192.168.1.1",
+    "de": "London, Großbritannien • IP: 192.168.1.1",
+    "pt": "Londres, Reino Unido • IP: 192.168.1.1",
+    "it": "Londra, Regno Unito • IP: 192.168.1.1"
+  },
+  "Active Right Now": {
+    "es": "Activo ahora mismo",
+    "fr": "Actif en ce moment",
+    "ar": "نشط الآن",
+    "it": "Attivo proprio adesso",
+    "de": "Jetzt aktiv",
+    "pt": "Ativo agora"
+  },
+  "Windows 11 - Edge": {
+    "fr": "Windows 11 - Bord",
+    "it": "Windows 11 - Bordo",
+    "de": "Windows 11 – Edge",
+    "ar": "ويندوز 11 - الحافة",
+    "es": "Windows 11 - Borde",
+    "pt": "Windows 11 – Borda"
+  },
+  "Berlin, DE • IP: 10.0.0.45": {
+    "de": "Berlin, DE • IP: 10.0.0.45",
+    "it": "Berlino, DE • IP: 10.0.0.45",
+    "fr": "Berlin, Allemagne • IP : 10.0.0.45",
+    "ar": "برلين، ألمانيا • IP: 10.0.0.45",
+    "es": "Berlín, Alemania • IP: 10.0.0.45",
+    "pt": "Berlim, DE • IP: 10.0.0.45"
+  },
+  "Last active: 2 hours ago": {
+    "it": "Ultimo attivo: 2 ore fa",
+    "de": "Zuletzt aktiv: vor 2 Stunden",
+    "ar": "آخر نشاط: منذ ساعتين",
+    "es": "Última actividad: hace 2 horas",
+    "pt": "Última atividade: 2 horas atrás",
+    "fr": "Dernière activité : il y a 2 heures"
+  },
+  "Revoke": {
+    "de": "Widerrufen",
+    "pt": "Revogar",
+    "ar": "إبطال",
+    "es": "Revocar",
+    "it": "Revocare",
+    "fr": "Révoquer"
+  },
+  "Log out of all other sessions": {
+    "fr": "Se déconnecter de toutes les autres sessions",
+    "it": "Disconnettersi da tutte le altre sessioni",
+    "pt": "Sair de todas as outras sessões",
+    "ar": "تسجيل الخروج من جميع الجلسات الأخرى",
+    "es": "Cerrar sesión en todas las demás sesiones",
+    "de": "Melden Sie sich von allen anderen Sitzungen ab"
+  },
+  "Audit Log": {
+    "ar": "سجل التدقيق",
+    "pt": "Registro de auditoria",
+    "es": "Registro de auditoría",
+    "it": "Registro di controllo",
+    "fr": "Journal d'audit",
+    "de": "Audit-Protokoll"
+  },
+  "Export CSV": {
+    "fr": "Exporter au format CSV",
+    "ar": "تصدير CSV",
+    "es": "Exportar CSV",
+    "pt": "Exportar CSV",
+    "it": "Esporta CSV",
+    "de": "CSV exportieren"
+  },
+  "Timestamp": {
+    "it": "Timestamp",
+    "es": "Marca de tiempo",
+    "ar": "الطابع الزمني",
+    "fr": "Horodatage",
+    "de": "Zeitstempel",
+    "pt": "Carimbo de data e hora"
+  },
+  "Action": {
+    "ar": "فعل",
+    "es": "Acción",
+    "pt": "Ação",
+    "it": "Azione",
+    "fr": "Action",
+    "de": "Aktion"
+  },
+  "IP Address": {
+    "es": "Dirección IP",
+    "de": "IP-Adresse",
+    "it": "Indirizzo IP",
+    "fr": "Adresse IP",
+    "ar": "عنوان IP",
+    "pt": "Endereço IP"
+  },
+  "Search audit logs...": {
+    "fr": "Rechercher dans les journaux d'audit...",
+    "ar": "البحث في سجلات التدقيق...",
+    "es": "Buscar registros de auditoría...",
+    "it": "Cerca nei log di controllo...",
+    "de": "Audit-Logs durchsuchen...",
+    "pt": "Pesquisar registros de auditoria..."
+  },
+  "void;\n  language: Language;\n  setLanguage: (lang: Language) => void;\n}\n\nconst SettingsContext = createContext": {
+    "ar": "فارغ؛\n  اللغة: اللغة؛\n  setLanguage: (lang: Language) => void;\n}\n\nconstSettingsContext = createContext",
+    "fr": "vide;\n  langue : Langue ;\n  setLanguage : (lang : Langue) => void ;\n}\n\nconst ParamètresContext = createContext",
+    "de": "Leere;\n  Sprache: Sprache;\n  setLanguage: (lang: Sprache) => void;\n}\n\nconst SettingsContext = createContext",
+    "es": "vacío;\n  idioma: Idioma;\n  setLanguage: (idioma: Idioma) => void;\n}\n\nconstConfiguraciónContexto = crearContexto",
+    "it": "vuoto;\n  lingua: Lingua;\n  setLanguage: (lang: Lingua) => void;\n}\n\nconst ImpostazioniContext = createContext",
+    "pt": "vazio;\n  idioma: Idioma;\n  setLanguage: (lang: Idioma) => void;\n}\n\nconst ConfiguraçõesContext=criarContext"
+  },
+  "Settings": {
+    "es": "Ajustes",
+    "it": "Impostazioni",
+    "ar": "إعدادات",
+    "pt": "Configurações",
+    "de": "Einstellungen",
+    "fr": "Paramètres"
+  },
+  "Manage system preferences": {
+    "es": "Administrar las preferencias del sistema",
+    "ar": "إدارة تفضيلات النظام",
+    "fr": "Gérer les préférences système",
+    "it": "Gestisci le preferenze di sistema",
+    "de": "Systemeinstellungen verwalten",
+    "pt": "Gerenciar preferências do sistema"
+  },
+  "Theme & Appearance": {
+    "es": "Tema y apariencia",
+    "ar": "الموضوع والمظهر",
+    "it": "Tema e aspetto",
+    "de": "Thema und Aussehen",
+    "fr": "Thème et apparence",
+    "pt": "Tema e aparência"
+  },
+  "Customize the visual style of your workspace.": {
+    "es": "Personaliza el estilo visual de tu espacio de trabajo.",
+    "it": "Personalizza lo stile visivo del tuo spazio di lavoro.",
+    "ar": "قم بتخصيص النمط المرئي لمساحة العمل الخاصة بك.",
+    "fr": "Personnalisez le style visuel de votre espace de travail.",
+    "de": "Passen Sie den visuellen Stil Ihres Arbeitsbereichs an.",
+    "pt": "Personalize o estilo visual do seu espaço de trabalho."
+  },
+  "Accent Color": {
+    "ar": "لون مميز",
+    "it": "Colore accento",
+    "de": "Akzentfarbe",
+    "es": "Color de acento",
+    "fr": "Couleur d'accentuation",
+    "pt": "Cor de destaque"
+  },
+  "Custom Color": {
+    "es": "Color personalizado",
+    "it": "Colore personalizzato",
+    "ar": "لون مخصص",
+    "pt": "Cor personalizada",
+    "de": "Benutzerdefinierte Farbe",
+    "fr": "Couleur personnalisée"
+  },
+  "Pick your brand's exact hex code": {
+    "es": "Elija el código hexadecimal exacto de su marca",
+    "de": "Wählen Sie den genauen Hex-Code Ihrer Marke",
+    "ar": "اختر الرمز السداسي الدقيق لعلامتك التجارية",
+    "it": "Scegli il codice esadecimale esatto del tuo marchio",
+    "fr": "Choisissez le code hexadécimal exact de votre marque",
+    "pt": "Escolha o código hexadecimal exato da sua marca"
+  },
+  "Interface Mode": {
+    "de": "Schnittstellenmodus",
+    "fr": "Mode interface",
+    "es": "Modo de interfaz",
+    "it": "Modalità interfaccia",
+    "ar": "وضع الواجهة",
+    "pt": "Modo de Interface"
+  },
+  "Light Mode": {
+    "ar": "وضع الضوء",
+    "fr": "Mode lumière",
+    "es": "Modo de luz",
+    "it": "Modalità luce",
+    "pt": "Modo claro",
+    "de": "Lichtmodus"
+  },
+  "Clean and bright (Default)": {
+    "pt": "Limpo e brilhante (padrão)",
+    "es": "Limpio y brillante (predeterminado)",
+    "ar": "نظيف ومشرق (افتراضي)",
+    "it": "Pulito e luminoso (impostazione predefinita)",
+    "de": "Sauber und hell (Standard)",
+    "fr": "Propre et lumineux (par défaut)"
+  },
+  "Dark Mode": {
+    "it": "Modalità oscura",
+    "fr": "Mode sombre",
+    "es": "Modo oscuro",
+    "ar": "الوضع المظلم",
+    "pt": "Modo escuro",
+    "de": "Dunkler Modus"
+  },
+  "Easy on the eyes": {
+    "ar": "سهل على العيون",
+    "es": "Agradable a la vista",
+    "it": "Facile per gli occhi",
+    "fr": "Agréable pour les yeux",
+    "de": "Schont die Augen",
+    "pt": "Fácil para os olhos"
+  },
+  "Typography Scale": {
+    "ar": "مقياس الطباعة",
+    "pt": "Escala de tipografia",
+    "es": "Escala de tipografía",
+    "fr": "Échelle de typographie",
+    "de": "Typografie-Skala",
+    "it": "Scala tipografica"
+  },
+  "Sidebar Style": {
+    "ar": "نمط الشريط الجانبي",
+    "pt": "Estilo da barra lateral",
+    "es": "Estilo de barra lateral",
+    "fr": "Style de la barre latérale",
+    "de": "Seitenleistenstil",
+    "it": "Stile della barra laterale"
+  },
+  "HEX Code": {
+    "ar": "رمز عرافة",
+    "pt": "Código HEX",
+    "es": "Código hexadecimal",
+    "fr": "Code HEX",
+    "de": "HEX-Code",
+    "it": "Codice esadecimale"
+  },
+  "Users & Permissions": {
+    "fr": "Utilisateurs et autorisations",
+    "ar": "المستخدمون والأذونات",
+    "es": "Usuarios y permisos",
+    "de": "Benutzer und Berechtigungen",
+    "it": "Utenti e autorizzazioni",
+    "pt": "Usuários e permissões"
+  },
+  "Manage team access and roles.": {
+    "es": "Administrar el acceso y los roles del equipo.",
+    "ar": "إدارة وصول الفريق والأدوار.",
+    "fr": "Gérez l’accès et les rôles de l’équipe.",
+    "de": "Verwalten Sie den Teamzugriff und die Rollen.",
+    "pt": "Gerencie o acesso e as funções da equipe.",
+    "it": "Gestire l'accesso e i ruoli del team."
+  },
+  "Invite User": {
+    "pt": "Convidar usuário",
+    "ar": "دعوة المستخدم",
+    "es": "Invitar usuario",
+    "fr": "Inviter un utilisateur",
+    "de": "Benutzer einladen",
+    "it": "Invita utente"
+  },
+  "Role": {
+    "fr": "Rôle",
+    "es": "Role",
+    "it": "Ruolo",
+    "de": "Rolle",
+    "pt": "Papel",
+    "ar": "دور"
+  },
+  "Last Login": {
+    "es": "Último inicio de sesión",
+    "ar": "تسجيل الدخول الأخير",
+    "fr": "Dernière connexion",
+    "it": "Ultimo accesso",
+    "de": "Letzte Anmeldung",
+    "pt": "Último login"
+  },
+  "Actions": {
+    "es": "Comportamiento",
+    "de": "Aktionen",
+    "ar": "الإجراءات",
+    "pt": "Ações",
+    "it": "Azioni",
+    "fr": "Actes"
+  },
+  "Role Permissions Overview": {
+    "ar": "نظرة عامة على أذونات الدور",
+    "fr": "Présentation des autorisations de rôle",
+    "es": "Descripción general de los permisos de función",
+    "de": "Übersicht über Rollenberechtigungen",
+    "it": "Panoramica delle autorizzazioni del ruolo",
+    "pt": "Visão geral das permissões de função"
+  },
+  "Module": {
+    "fr": "Module",
+    "ar": "الوحدة النمطية",
+    "es": "Módulo",
+    "de": "Modul",
+    "it": "Modulo",
+    "pt": "Módulo"
+  },
+  "Admin": {
+    "pt": "Administrador",
+    "fr": "Administrateur",
+    "es": "Administración",
+    "de": "Admin",
+    "ar": "مسؤل",
+    "it": "Ammin"
+  },
+  "Manager": {
+    "pt": "Gerente",
+    "de": "Manager",
+    "fr": "Directeur",
+    "es": "Gerente",
+    "it": "Manager",
+    "ar": "مدير"
+  },
+  "Viewer": {
+    "de": "Zuschauer",
+    "fr": "Téléspectateur",
+    "ar": "مشاهد",
+    "it": "Spettatore",
+    "es": "Espectador",
+    "pt": "Visualizador"
+  },
+  "Full Access": {
+    "de": "Voller Zugriff",
+    "it": "Accesso completo",
+    "ar": "الوصول الكامل",
+    "fr": "Accès complet",
+    "es": "Acceso completo",
+    "pt": "Acesso total"
+  },
+  "Can Edit": {
+    "fr": "Peut modifier",
+    "it": "Può modificare",
+    "de": "Kann bearbeiten",
+    "es": "Puede editar",
+    "ar": "يمكن تحرير",
+    "pt": "Pode editar"
+  },
+  "View Only": {
+    "de": "Nur anzeigen",
+    "es": "Ver sólo",
+    "ar": "عرض فقط",
+    "pt": "Somente visualizar",
+    "fr": "Afficher uniquement",
+    "it": "Solo visualizzazione"
+  }
+}

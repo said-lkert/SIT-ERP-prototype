@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-indigo-50: var(--accent-50);
+  --color-indigo-100: var(--accent-100);
+  --color-indigo-200: var(--accent-200);
+  --color-indigo-300: var(--accent-300);
+  --color-indigo-400: var(--accent-400);
+  --color-indigo-500: var(--accent-500);
+  --color-indigo-600: var(--accent-600);
+  --color-indigo-700: var(--accent-700);
+  --color-indigo-800: var(--accent-800);
+  --color-indigo-900: var(--accent-900);
+}
+
+::view-transition-group(root) {
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
